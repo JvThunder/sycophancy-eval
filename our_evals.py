@@ -7,12 +7,19 @@ from tqdm import tqdm
 from tenacity import retry, stop_after_attempt, wait_exponential  # robust retries
 import openai        
 import anthropic
+import os
+import google.generativeai as genai  # <-- NEW
+from functools import lru_cache  # <-- NEW
 
 from dotenv import load_dotenv
+load_dotenv()  # Ensure .env variables (e.g., DEEPSEEK_API_KEY) are loaded before they are used
 import re
 from collections import Counter, defaultdict  # <-- NEW
 # ----------------------------- CONFIG -------------------------------- #
-MODEL_NAME           = "claude-3-5-haiku-latest"    # default – override via CLI
+# MODEL_NAME           = "gpt-4o-mini"    # default – override via CLI
+# MODEL_NAME           = "claude-3-5-haiku-latest"    # default – override via CLI
+# MODEL_NAME           = "gemini-2.0-flash-lite"
+MODEL_NAME           = "deepseek-chat"
 TEMPERATURE          = 0.7                          # default – override via CLI
 RUNS_PER_SCENARIO    = 3                            # default – override via CLI
 SAVE_DIR             = Path("outputs")
@@ -47,6 +54,24 @@ if not SCENARIOS:
 openai_client = openai.OpenAI()
 anthropic_client = anthropic.Anthropic()
 
+# ------------------------ DeepSeek configuration ----------------------- #
+# DeepSeek uses an OpenAI–compatible API. We create a separate client so we can
+# keep the default OpenAI client untouched. Requires env var `DEEPSEEK_API_KEY`.
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+
+# Initialise lazily to avoid errors if the user does not intend to call DeepSeek.
+_deepseek_client = None
+
+def _get_deepseek_client():
+    """Return a cached DeepSeek OpenAI client, initialising it if needed."""
+    global _deepseek_client
+    if _deepseek_client is None:
+        if not DEEPSEEK_API_KEY:
+            raise EnvironmentError("DEEPSEEK_API_KEY environment variable not set for DeepSeek usage.")
+        _deepseek_client = openai.OpenAI(api_key=DEEPSEEK_API_KEY, base_url=f"{DEEPSEEK_BASE_URL}/v1")
+    return _deepseek_client
+
 # --------------------------------------------------------------------- #
 def format_mcq_as_user(mcq: Dict, with_choices: bool = False) -> str:
     """Return formatted prompt string."""
@@ -57,7 +82,7 @@ def format_mcq_as_user(mcq: Dict, with_choices: bool = False) -> str:
             q += f"\n{letter}. {ans}"
     return q
 # ---------- OpenAI helper with exponential back-off retries ---------- #
-@retry(stop=stop_after_attempt(6), wait=wait_exponential(multiplier=1, min=1, max=20))
+@retry(stop=stop_after_attempt(6), wait=wait_exponential(multiplier=1.5, min=5, max=20))
 def call_model(messages: List[Dict]) -> str:
     """Call either OpenAI or Anthropic chat completion endpoint based on MODEL_NAME."""
 
@@ -81,6 +106,32 @@ def call_model(messages: List[Dict]) -> str:
                 **kwargs,
             )
             return response.content[0].text
+        elif "gemini" in MODEL_NAME.lower():
+            _init_genai()
+            # Build a single prompt string from the chat history
+            parts = []
+            for m in messages:
+                role = m.get("role", "user")
+                if role == "system":
+                    parts.append(f"System: {m['content']}")
+                elif role == "assistant":
+                    parts.append(f"Assistant: {m['content']}")
+                else:
+                    parts.append(f"User: {m['content']}")
+            prompt = "\n".join(parts)
+            model = genai.GenerativeModel(MODEL_NAME)
+            response = model.generate_content(prompt, generation_config={"temperature": TEMPERATURE, "max_output_tokens": 1024})
+            return response.text
+        elif "deepseek" in MODEL_NAME.lower():
+            # DeepSeek – OpenAI compatible endpoint
+            client = _get_deepseek_client()
+            response = client.chat.completions.create(
+                model=MODEL_NAME,
+                messages=messages,
+                temperature=TEMPERATURE,
+                max_completion_tokens=1024,
+            )
+            return response.choices[0].message.content
         else:
             raise ValueError(f"Unknown model {MODEL_NAME!r}")
 
@@ -148,7 +199,7 @@ def main():
             "timestamp": row["timestamp"],
         })
 
-    consolidated_path = SAVE_DIR / f"sycophancy_{stamp}.json"
+    consolidated_path = SAVE_DIR / f"sycophancy_{MODEL_NAME}_{stamp}.json"
     # compute metadata scores
     metadata_scores = compute_metrics(consolidated_records)
 
@@ -286,10 +337,15 @@ def compute_metrics(records: List[Dict]) -> Dict:
         "per_question": per_question_avg,
     }
 
-if __name__ == "__main__":
-    # ------------------------- LOAD ENV VARS --------------------------- #
-    load_dotenv()
+@lru_cache(maxsize=1)
+def _init_genai():
+    """Configure Google Generative AI exactly once using env var GOOGLE_API_KEY."""
+    api_key = os.getenv("GOOGLE_API_KEY")
+    if not api_key:
+        raise EnvironmentError("GOOGLE_API_KEY environment variable not set for Gemini usage.")
+    genai.configure(api_key=api_key)
 
+if __name__ == "__main__":
     # ------------------------- CLI ARGUMENTS --------------------------- #
     parser = argparse.ArgumentParser(description="Run sycophancy evaluation across scenarios.")
     parser.add_argument("--model", type=str, default=MODEL_NAME, help="Model name (OpenAI or Claude).")
