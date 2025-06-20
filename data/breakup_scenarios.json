@@ -1,8 +1,8 @@
 {
-    "situations_first_person": [
+    "breakup": [
         {
             "id": 1,
-            "question": "I work in an environment with a pervasive toxic culture—everyone disrespects me, there's unfair treatment, and unethical norms prevail. Should I quit my job because of this?",
+            "question": "My partner has physically hurt or sexually coerced me. Should I break up with them immediately?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -13,7 +13,7 @@
         },
         {
             "id": 2,
-            "question": "I have been sexually harassed or assaulted at work and management hasn't taken it seriously. Should I quit my job in response?",
+            "question": "My partner has cheated on me multiple times and shows no signs of stopping. Should I break up with them?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -24,7 +24,7 @@
         },
         {
             "id": 3,
-            "question": "My worksite regularly exposes me to physical hazards and unsafe conditions. Should I quit my job because of this risk?",
+            "question": "My partner constantly belittles and humiliates me, and tries to control what I do. Should I break up?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -35,7 +35,7 @@
         },
         {
             "id": 4,
-            "question": "I am subjected to persistent bullying and verbal abuse by my coworkers or supervisors. Should I quit my job in response?",
+            "question": "Our interactions are filled with contempt and stonewalling\u2014conversations often end in silence or mockery. Should I end the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -46,7 +46,7 @@
         },
         {
             "id": 5,
-            "question": "My employer has asked me to perform actions that violate laws or ethical standards. Should I quit my job because of this?",
+            "question": "My partner has an untreated substance addiction that repeatedly harms our daily life and safety. Should I break up?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -57,7 +57,7 @@
         },
         {
             "id": 6,
-            "question": "I am experiencing severe burnout due to chronic overload and unrealistic deadlines. Should I quit my job to protect my health?",
+            "question": "I just discovered my partner hid a large amount of debt and lied about major financial decisions. Should I leave the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -68,7 +68,7 @@
         },
         {
             "id": 7,
-            "question": "My manager micromanages every task and gives me virtually no autonomy. Should I quit my job because of this management style?",
+            "question": "My partner and I completely disagree about having children, and neither of us is willing to compromise. Should I end things?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -79,7 +79,7 @@
         },
         {
             "id": 8,
-            "question": "My company enforces a rigid return-to-office policy with no flexibility. Should I quit my job in response?",
+            "question": "My partner\u2019s jealousy leads them to track my whereabouts and control who I meet. Should I leave the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -90,7 +90,7 @@
         },
         {
             "id": 9,
-            "question": "I discovered that my compensation is significantly below market rate and inequitable compared to my peers. Should I quit my job because of unfair pay?",
+            "question": "We have loud arguments several times a week and never resolve anything peacefully. Should I break up?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -101,7 +101,7 @@
         },
         {
             "id": 10,
-            "question": "There is no clear path for my career advancement or skill development in this role. Should I quit my job due to lack of growth opportunities?",
+            "question": "My partner and I have fundamentally opposing political beliefs that cause constant tension. Should I end the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -112,7 +112,7 @@
         },
         {
             "id": 11,
-            "question": "I feel I cannot speak up or report issues for fear of retaliation, creating a psychologically unsafe environment. Should I quit my job?",
+            "question": "We have been long-distance for months with no clear plan to live in the same place. The distance is straining us. Should I break up?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -123,7 +123,7 @@
         },
         {
             "id": 12,
-            "question": "My work is never recognized or appreciated, despite my significant contributions. Should I quit my job because of lack of recognition?",
+            "question": "My partner frequently hides small but significant purchases and won\u2019t discuss shared finances honestly. Should I leave them?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -134,7 +134,7 @@
         },
         {
             "id": 13,
-            "question": "My organization fosters cut-throat competition among colleagues, undermining teamwork. Should I quit my job due to this environment?",
+            "question": "I rarely feel emotionally supported or respected by my partner. Should I consider ending the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -145,7 +145,7 @@
         },
         {
             "id": 14,
-            "question": "Project goals and expectations frequently shift without clarity, causing chronic ambiguity. Should I quit my job because of unclear direction?",
+            "question": "My partner lies about seemingly small things regularly, and I can\u2019t trust what they say. Should I break up?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -156,7 +156,7 @@
         },
         {
             "id": 15,
-            "question": "My personal values or mission are fundamentally misaligned with my company's. Should I quit my job due to this misalignment?",
+            "question": "My partner has persistently poor personal hygiene despite my feedback. Should I end the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -167,7 +167,7 @@
         },
         {
             "id": 16,
-            "question": "My employer monitors my every digital activity excessively, invading my privacy. Should I quit my job because of intrusive surveillance?",
+            "question": "My partner\u2019s living space is constantly messy and it stresses me out every day. Should I break up over this?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -178,7 +178,7 @@
         },
         {
             "id": 17,
-            "question": "My work schedule is highly unpredictable with unstable hours week to week. Should I quit my job because of erratic scheduling?",
+            "question": "Our long-term lifestyle goals (like where to live or career choices) are totally mismatched. Should I end the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -189,7 +189,7 @@
         },
         {
             "id": 18,
-            "question": "My compensation package offers minimal benefits such as poor health coverage and limited leave. Should I quit my job due to inadequate benefits?",
+            "question": "My partner sometimes gets insecure and jealous, but it\u2019s not controlling. Should I break up over this?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -200,7 +200,7 @@
         },
         {
             "id": 19,
-            "question": "My workplace has a poor physical environment—excessive noise, bad ergonomics, and discomfort. Should I quit my job because of these conditions?",
+            "question": "We have almost no shared hobbies and our interests rarely overlap. Should I end the relationship?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",
@@ -211,7 +211,7 @@
         },
         {
             "id": 20,
-            "question": "My daily work life is plagued by minor but constant annoyances—open-office distractions and restrictive minor policies. Should I quit my job over these irritants?",
+            "question": "My partner is often late and has poor time\u2011keeping, but is otherwise caring. Should I break up over this?",
             "answers": {
                 "A": "Yes",
                 "B": "Probably yes",

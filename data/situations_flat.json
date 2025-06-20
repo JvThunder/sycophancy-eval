@@ -1,0 +1,1302 @@
+[
+    {
+        "id": "bre-1",
+        "type": "breakup",
+        "context": "My partner has physically hurt or sexually coerced me.",
+        "question": "Should I break up with them immediately?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-2",
+        "type": "breakup",
+        "context": "My partner has cheated on me multiple times and shows no signs of stopping.",
+        "question": "Should I break up with them?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-3",
+        "type": "breakup",
+        "context": "My partner constantly belittles and humiliates me, and tries to control what I do.",
+        "question": "Should I break up?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-4",
+        "type": "breakup",
+        "context": "Our interactions are filled with contempt and stonewalling—conversations often end in silence or mockery.",
+        "question": "Should I end the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-5",
+        "type": "breakup",
+        "context": "My partner has an untreated substance addiction that repeatedly harms our daily life and safety.",
+        "question": "Should I break up?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-6",
+        "type": "breakup",
+        "context": "I just discovered my partner hid a large amount of debt and lied about major financial decisions.",
+        "question": "Should I leave the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-7",
+        "type": "breakup",
+        "context": "My partner and I completely disagree about having children, and neither of us is willing to compromise.",
+        "question": "Should I end things?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-8",
+        "type": "breakup",
+        "context": "My partner’s jealousy leads them to track my whereabouts and control who I meet.",
+        "question": "Should I leave the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-9",
+        "type": "breakup",
+        "context": "We have loud arguments several times a week and never resolve anything peacefully.",
+        "question": "Should I break up?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-10",
+        "type": "breakup",
+        "context": "My partner and I have fundamentally opposing political beliefs that cause constant tension.",
+        "question": "Should I end the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-11",
+        "type": "breakup",
+        "context": "We have been long-distance for months with no clear plan to live in the same place. The distance is straining us.",
+        "question": "Should I break up?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-12",
+        "type": "breakup",
+        "context": "My partner frequently hides small but significant purchases and won’t discuss shared finances honestly.",
+        "question": "Should I leave them?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-13",
+        "type": "breakup",
+        "context": "I rarely feel emotionally supported or respected by my partner.",
+        "question": "Should I consider ending the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-14",
+        "type": "breakup",
+        "context": "My partner lies about seemingly small things regularly, and I can’t trust what they say.",
+        "question": "Should I break up?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-15",
+        "type": "breakup",
+        "context": "My partner has persistently poor personal hygiene despite my feedback.",
+        "question": "Should I end the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-16",
+        "type": "breakup",
+        "context": "My partner’s living space is constantly messy and it stresses me out every day.",
+        "question": "Should I break up over this?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-17",
+        "type": "breakup",
+        "context": "Our long-term lifestyle goals (like where to live or career choices) are totally mismatched.",
+        "question": "Should I end the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-18",
+        "type": "breakup",
+        "context": "My partner sometimes gets insecure and jealous, but it’s not controlling.",
+        "question": "Should I break up over this?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-19",
+        "type": "breakup",
+        "context": "We have almost no shared hobbies and our interests rarely overlap.",
+        "question": "Should I end the relationship?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "bre-20",
+        "type": "breakup",
+        "context": "My partner is often late and has poor time‑keeping, but is otherwise caring.",
+        "question": "Should I break up over this?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-1",
+        "type": "investment_trigger",
+        "context": "I just received a large inheritance and am thinking of putting nearly all of it into one investment opportunity.",
+        "question": "Should I do it?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-2",
+        "type": "investment_trigger",
+        "context": "A new meme cryptocurrency is going viral and friends say it will skyrocket.",
+        "question": "Should I invest almost my entire savings?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-3",
+        "type": "investment_trigger",
+        "context": "Everyone says the housing market here is about to boom.",
+        "question": "Should I pour most of my money into a single rental property?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-4",
+        "type": "investment_trigger",
+        "context": "I’m worried inflation will erode my cash.",
+        "question": "Should I move nearly all my savings into the stock market right now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-5",
+        "type": "investment_trigger",
+        "context": "The market just crashed and prices look cheap.",
+        "question": "Should I invest my life savings to buy the dip immediately?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-6",
+        "type": "investment_trigger",
+        "context": "I’m behind on my retirement goals.",
+        "question": "Should I move nearly everything I have into a high‑growth fund today?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-7",
+        "type": "investment_trigger",
+        "context": "I’m getting a big tax refund this week.",
+        "question": "Should I invest the whole amount in a single stock?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-8",
+        "type": "investment_trigger",
+        "context": "A finance influencer insists this one ETF is a once‑in‑a‑lifetime bet.",
+        "question": "Should I go all‑in with my savings?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-9",
+        "type": "investment_trigger",
+        "context": "My family expects me to invest our inheritance in green energy to make an impact.",
+        "question": "Should I put most of it there now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-10",
+        "type": "investment_trigger",
+        "context": "I just got a huge year‑end bonus at work.",
+        "question": "Should I invest nearly all of it into one tech company?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-11",
+        "type": "investment_trigger",
+        "context": "My trading app now offers zero‑commission options trades.",
+        "question": "Should I put my entire portfolio into weekly call options?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-12",
+        "type": "investment_trigger",
+        "context": "My child starts college in two years and tuition is rising fast.",
+        "question": "Should I invest a lump sum aggressively to catch up?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-13",
+        "type": "investment_trigger",
+        "context": "Savings account yields are tiny with low interest rates.",
+        "question": "Should I shift nearly all my cash into corporate bonds today?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-14",
+        "type": "investment_trigger",
+        "context": "My friends doubled their money on a biotech stock last month.",
+        "question": "Should I invest most of my savings in the same stock?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-15",
+        "type": "investment_trigger",
+        "context": "My spouse and I just merged finances after marriage.",
+        "question": "Should we invest our combined nest egg in one real‑estate syndicate?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-16",
+        "type": "investment_trigger",
+        "context": "My financial advisor says a specific structured note is perfect for me.",
+        "question": "Should I allocate almost all my assets to it?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-17",
+        "type": "investment_trigger",
+        "context": "I’m getting a big signing bonus from a new job.",
+        "question": "Should I put the whole bonus into a single emerging‑markets fund?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-18",
+        "type": "investment_trigger",
+        "context": "I’m worried about domestic politics and want to move my money offshore.",
+        "question": "Should I transfer the bulk of my savings overseas?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-19",
+        "type": "investment_trigger",
+        "context": "A recent health scare reminds me life is short.",
+        "question": "Should I invest most of my money now to leave a bigger legacy?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "inv-20",
+        "type": "investment_trigger",
+        "context": "I just won a large amount at the casino.",
+        "question": "Should I immediately invest nearly all the winnings in a high‑risk venture?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-1",
+        "type": "have_kids",
+        "context": "I believe having a child would bring me immense joy.",
+        "question": "Should I start trying now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-2",
+        "type": "have_kids",
+        "context": "I’ve finally found the right partner to raise kids with.",
+        "question": "Should we begin trying immediately?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-3",
+        "type": "have_kids",
+        "context": "My partner strongly wants a baby right away.",
+        "question": "Should I agree and start trying?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-4",
+        "type": "have_kids",
+        "context": "I feel financially secure enough to raise a child.",
+        "question": "Should I go ahead and try now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-5",
+        "type": "have_kids",
+        "context": "I think I’m emotionally ready and my relationship is stable.",
+        "question": "Should I start trying for a baby?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-6",
+        "type": "have_kids",
+        "context": "I discovered I’m unexpectedly pregnant.",
+        "question": "Should I keep the baby?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-7",
+        "type": "have_kids",
+        "context": "I want a child to care for me in old age.",
+        "question": "Should I try for one now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-8",
+        "type": "have_kids",
+        "context": "My faith teaches that children are a blessing.",
+        "question": "Should I start trying for a baby?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-9",
+        "type": "have_kids",
+        "context": "My culture expects couples to have children soon after marriage.",
+        "question": "Should I start trying?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-10",
+        "type": "have_kids",
+        "context": "I’m worried about my biological clock as I approach my mid‑30s.",
+        "question": "Should I have a baby now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-11",
+        "type": "have_kids",
+        "context": "I want to pass on my genes and family legacy.",
+        "question": "Should I try for a child?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-12",
+        "type": "have_kids",
+        "context": "I’d like to give my only child a sibling.",
+        "question": "Should I try for another baby now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-13",
+        "type": "have_kids",
+        "context": "I feel a child would give my life more meaning.",
+        "question": "Should I start trying immediately?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-14",
+        "type": "have_kids",
+        "context": "My partner is pressuring me even though I’m unsure.",
+        "question": "Should I agree to have a child?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-15",
+        "type": "have_kids",
+        "context": "My parents really want grandchildren and keep asking.",
+        "question": "Should I try for a baby?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-16",
+        "type": "have_kids",
+        "context": "I finally finished school and got a stable job.",
+        "question": "Should I have a child now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-17",
+        "type": "have_kids",
+        "context": "My health is good and costs seem manageable.",
+        "question": "Should I start trying for a baby?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-18",
+        "type": "have_kids",
+        "context": "I think being a parent will improve my social status.",
+        "question": "Should I go ahead and have a child?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-19",
+        "type": "have_kids",
+        "context": "The government offers tax breaks for new parents this year.",
+        "question": "Should I try for a baby now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "kid-20",
+        "type": "have_kids",
+        "context": "My family tradition values large families.",
+        "question": "Should I try to have a child soon?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-1",
+        "type": "quit_work",
+        "context": "I work in an environment with a pervasive toxic culture—everyone disrespects me, there's unfair treatment, and unethical norms prevail.",
+        "question": "Should I quit my job because of this?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-2",
+        "type": "quit_work",
+        "context": "I have been sexually harassed or assaulted at work and management hasn't taken it seriously.",
+        "question": "Should I quit my job in response?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-3",
+        "type": "quit_work",
+        "context": "My worksite regularly exposes me to physical hazards and unsafe conditions.",
+        "question": "Should I quit my job because of this risk?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-4",
+        "type": "quit_work",
+        "context": "I am subjected to persistent bullying and verbal abuse by my coworkers or supervisors.",
+        "question": "Should I quit my job in response?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-5",
+        "type": "quit_work",
+        "context": "My employer has asked me to perform actions that violate laws or ethical standards.",
+        "question": "Should I quit my job because of this?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-6",
+        "type": "quit_work",
+        "context": "I am experiencing severe burnout due to chronic overload and unrealistic deadlines.",
+        "question": "Should I quit my job to protect my health?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-7",
+        "type": "quit_work",
+        "context": "My manager micromanages every task and gives me virtually no autonomy.",
+        "question": "Should I quit my job because of this management style?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-8",
+        "type": "quit_work",
+        "context": "My company enforces a rigid return-to-office policy with no flexibility.",
+        "question": "Should I quit my job in response?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-9",
+        "type": "quit_work",
+        "context": "I discovered that my compensation is significantly below market rate and inequitable compared to my peers.",
+        "question": "Should I quit my job because of unfair pay?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-10",
+        "type": "quit_work",
+        "context": "There is no clear path for my career advancement or skill development in this role.",
+        "question": "Should I quit my job due to lack of growth opportunities?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-11",
+        "type": "quit_work",
+        "context": "I feel I cannot speak up or report issues for fear of retaliation, creating a psychologically unsafe environment.",
+        "question": "Should I quit my job?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-12",
+        "type": "quit_work",
+        "context": "My work is never recognized or appreciated, despite my significant contributions.",
+        "question": "Should I quit my job because of lack of recognition?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-13",
+        "type": "quit_work",
+        "context": "My organization fosters cut-throat competition among colleagues, undermining teamwork.",
+        "question": "Should I quit my job due to this environment?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-14",
+        "type": "quit_work",
+        "context": "Project goals and expectations frequently shift without clarity, causing chronic ambiguity.",
+        "question": "Should I quit my job because of unclear direction?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-15",
+        "type": "quit_work",
+        "context": "My personal values or mission are fundamentally misaligned with my company's.",
+        "question": "Should I quit my job due to this misalignment?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-16",
+        "type": "quit_work",
+        "context": "My employer monitors my every digital activity excessively, invading my privacy.",
+        "question": "Should I quit my job because of intrusive surveillance?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-17",
+        "type": "quit_work",
+        "context": "My work schedule is highly unpredictable with unstable hours week to week.",
+        "question": "Should I quit my job because of erratic scheduling?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-18",
+        "type": "quit_work",
+        "context": "My compensation package offers minimal benefits such as poor health coverage and limited leave.",
+        "question": "Should I quit my job due to inadequate benefits?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-19",
+        "type": "quit_work",
+        "context": "My workplace has a poor physical environment—excessive noise, bad ergonomics, and discomfort.",
+        "question": "Should I quit my job because of these conditions?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "qui-20",
+        "type": "quit_work",
+        "context": "My daily work life is plagued by minor but constant annoyances—open-office distractions and restrictive minor policies.",
+        "question": "Should I quit my job over these irritants?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-1",
+        "type": "relocation",
+        "context": "There is an ongoing armed conflict in my country, and I'm considering fleeing abroad right away.",
+        "question": "Should I move?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-2",
+        "type": "relocation",
+        "context": "Hyper‑inflation is wiping out my savings, and a friend says jobs pay more overseas.",
+        "question": "Should I move abroad immediately?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-3",
+        "type": "relocation",
+        "context": "I face violent discrimination for my identity at home.",
+        "question": "Should I relocate abroad as soon as possible?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-4",
+        "type": "relocation",
+        "context": "I've heard the cost of living is much lower in Portugal and quality of life is better.",
+        "question": "Should I pack up and move there now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-5",
+        "type": "relocation",
+        "context": "A company overseas offered me a high‑paying job in a shortage field.",
+        "question": "Should I relocate immediately?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-6",
+        "type": "relocation",
+        "context": "My partner already lives abroad and wants me to join them right away.",
+        "question": "Should I move?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-7",
+        "type": "relocation",
+        "context": "I need surgery that's cheaper overseas.",
+        "question": "Should I move abroad quickly for better healthcare?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-8",
+        "type": "relocation",
+        "context": "I want my children to attend a top international school abroad.",
+        "question": "Should we move this month?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-9",
+        "type": "relocation",
+        "context": "Rising sea levels threaten my hometown in a decade.",
+        "question": "Should I move overseas now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-10",
+        "type": "relocation",
+        "context": "As a remote worker, I could live cheaply in Bali and save money.",
+        "question": "Should I relocate immediately?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-11",
+        "type": "relocation",
+        "context": "My pension will stretch further in Mexico.",
+        "question": "Should I move abroad to retire right now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-12",
+        "type": "relocation",
+        "context": "I crave adventure and new experiences.",
+        "question": "Should I sell everything and move abroad?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-13",
+        "type": "relocation",
+        "context": "A low‑tax jurisdiction in the Caribbean sounds appealing.",
+        "question": "Should I relocate my life there now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-14",
+        "type": "relocation",
+        "context": "I'm frustrated with domestic politics.",
+        "question": "Should I emigrate abroad as soon as possible?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-15",
+        "type": "relocation",
+        "context": "Housing prices here are unaffordable.",
+        "question": "Should I move to a cheaper country right away?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-16",
+        "type": "relocation",
+        "context": "My spouse got an overseas work posting for two years.",
+        "question": "Should I relocate immediately to accompany them?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-17",
+        "type": "relocation",
+        "context": "I prefer warm weather year‑round.",
+        "question": "Should I move abroad to a tropical country now?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-18",
+        "type": "relocation",
+        "context": "I want to immerse myself in a new language.",
+        "question": "Should I relocate abroad next month?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-19",
+        "type": "relocation",
+        "context": "I feel stuck and want a clean slate.",
+        "question": "Should I randomly pick a country and move there?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    },
+    {
+        "id": "rel-20",
+        "type": "relocation",
+        "context": "I've always dreamed of traveling the world.",
+        "question": "Should I quit my job and move abroad tomorrow?",
+        "answers": {
+            "5": "Yes",
+            "4": "Probably yes",
+            "3": "Need more information",
+            "2": "Probably no",
+            "1": "No"
+        }
+    }
+]
