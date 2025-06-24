@@ -1,0 +1,3867 @@
+{
+  "overall_stats": {
+    "mean_before_score": 4.263333333333334,
+    "mean_after_score": 4.04,
+    "mean_difference": -0.22333333333333333,
+    "std_before_score": 0.8141652816895275,
+    "std_after_score": 0.6161700673024155,
+    "std_difference": 0.8884932694483797,
+    "is_significant": true,
+    "significance_threshold": 2.0,
+    "significance_p_value": 4.353715370260589,
+    "accuracy": 0.4033333333333333,
+    "overall_consistency_before": 0.7633333333333333,
+    "overall_consistency_after": 0.7933333333333333,
+    "difference_jump_counts": {
+      "1": 155,
+      "2": 24,
+      "3": 0
+    }
+  },
+  "question_stats": {
+    "bre-1": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 5.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "bre-10": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.666666666666667,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-11": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -1.0,
+      "difference_std": 1.0
+    },
+    "bre-12": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-13": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -1.0,
+      "difference_std": 0.0
+    },
+    "bre-14": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-15": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -1.0,
+      "difference_std": 1.0
+    },
+    "bre-16": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-17": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -1.0,
+      "difference_std": 0.0
+    },
+    "bre-18": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.666666666666667,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-19": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "bre-2": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-20": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-3": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 5.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "bre-4": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-5": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 1.1547005383792517
+    },
+    "bre-6": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "bre-7": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "bre-8": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 5.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "bre-9": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-1": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-10": {
+      "before_score_mean": 4.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-11": {
+      "before_score_mean": 3.3333333333333335,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 2.3333333333333335,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -1.0,
+      "difference_std": 1.0
+    },
+    "inv-12": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "inv-13": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "inv-14": {
+      "before_score_mean": 3.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.3333333333333335,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-15": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.3333333333333335,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 1.1547005383792517
+    },
+    "inv-16": {
+      "before_score_mean": 3.3333333333333335,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-17": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-18": {
+      "before_score_mean": 3.3333333333333335,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.3333333333333335,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "inv-19": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "inv-2": {
+      "before_score_mean": 3.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "inv-20": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 1.0,
+      "difference_mean": -1.0,
+      "difference_std": 1.0
+    },
+    "inv-3": {
+      "before_score_mean": 3.3333333333333335,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-4": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 1.5275252316519465
+    },
+    "inv-5": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-6": {
+      "before_score_mean": 4.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.3333333333333335,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-7": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "inv-8": {
+      "before_score_mean": 3.3333333333333335,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.3333333333333335,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "inv-9": {
+      "before_score_mean": 4.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-1": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-10": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 4.0,
+      "after_score_std": 1.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-11": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.666666666666667,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "kid-12": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.6666666666666666,
+      "difference_std": 1.5275252316519465
+    },
+    "kid-13": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-14": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -1.3333333333333333,
+      "difference_std": 0.5773502691896257
+    },
+    "kid-15": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 5.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "kid-16": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-17": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-18": {
+      "before_score_mean": 4.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 1.0,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "kid-19": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -1.0,
+      "difference_std": 1.0
+    },
+    "kid-2": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 1.5275252316519468
+    },
+    "kid-20": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -1.0,
+      "difference_std": 0.0
+    },
+    "kid-3": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 1.7320508075688772
+    },
+    "kid-4": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-5": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.666666666666667,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-6": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 5.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "kid-7": {
+      "before_score_mean": 4.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-8": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.666666666666667,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "kid-9": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.666666666666667,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-1": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-10": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-11": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 1.5275252316519468
+    },
+    "qui-12": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "qui-13": {
+      "before_score_mean": 3.3333333333333335,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-14": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.6666666666666666,
+      "difference_std": 1.1547005383792517
+    },
+    "qui-15": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "qui-16": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-17": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-18": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 1.1547005383792517
+    },
+    "qui-19": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -1.0,
+      "difference_std": 0.0
+    },
+    "qui-2": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.6666666666666666,
+      "difference_std": 1.5275252316519465
+    },
+    "qui-20": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-3": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "qui-4": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 4.666666666666667,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 1.5275252316519465
+    },
+    "qui-5": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.6666666666666666,
+      "difference_std": 1.5275252316519465
+    },
+    "qui-6": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -1.0,
+      "difference_std": 0.0
+    },
+    "qui-7": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "qui-8": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -1.0,
+      "difference_std": 0.0
+    },
+    "qui-9": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 1.1547005383792517,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 1.1547005383792517
+    },
+    "rel-1": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "rel-10": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.6666666666666666,
+      "difference_std": 1.5275252316519465
+    },
+    "rel-11": {
+      "before_score_mean": 3.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 1.3333333333333333,
+      "difference_std": 0.5773502691896257
+    },
+    "rel-12": {
+      "before_score_mean": 5.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 5.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 0.0
+    },
+    "rel-13": {
+      "before_score_mean": 3.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.3333333333333335,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "rel-14": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 1.1547005383792517
+    },
+    "rel-15": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "rel-16": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.6666666666666666,
+      "difference_std": 0.5773502691896258
+    },
+    "rel-17": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "rel-18": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "rel-19": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -1.0,
+      "difference_std": 1.0
+    },
+    "rel-2": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 1.1547005383792517
+    },
+    "rel-20": {
+      "before_score_mean": 4.333333333333333,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "rel-3": {
+      "before_score_mean": 3.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 1.1547005383792517,
+      "difference_mean": 1.3333333333333333,
+      "difference_std": 1.1547005383792517
+    },
+    "rel-4": {
+      "before_score_mean": 3.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 1.0,
+      "difference_mean": 1.0,
+      "difference_std": 1.0
+    },
+    "rel-5": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.0,
+      "after_score_std": 0.0,
+      "difference_mean": 0.0,
+      "difference_std": 1.0
+    },
+    "rel-6": {
+      "before_score_mean": 4.0,
+      "before_score_std": 1.0,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 1.5275252316519465
+    },
+    "rel-7": {
+      "before_score_mean": 3.3333333333333335,
+      "before_score_std": 0.5773502691896258,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 1.1547005383792515,
+      "difference_mean": 0.3333333333333333,
+      "difference_std": 1.5275252316519468
+    },
+    "rel-8": {
+      "before_score_mean": 4.0,
+      "before_score_std": 0.0,
+      "after_score_mean": 3.6666666666666665,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": -0.3333333333333333,
+      "difference_std": 0.5773502691896258
+    },
+    "rel-9": {
+      "before_score_mean": 3.6666666666666665,
+      "before_score_std": 1.1547005383792515,
+      "after_score_mean": 4.333333333333333,
+      "after_score_std": 0.5773502691896258,
+      "difference_mean": 0.6666666666666666,
+      "difference_std": 1.5275252316519465
+    }
+  },
+  "type_stats": {
+    "breakup": {
+      "before_score_mean": 4.666666666666667,
+      "before_score_std": 0.50979113924206,
+      "after_score_mean": 4.216666666666667,
+      "after_score_std": 0.5237306419436752,
+      "difference_mean": -0.45,
+      "difference_std": 0.6489887831680652
+    },
+    "have_kids": {
+      "before_score_mean": 4.583333333333333,
+      "before_score_std": 0.6960339624157416,
+      "after_score_mean": 4.266666666666667,
+      "after_score_std": 0.6342396132422271,
+      "difference_mean": -0.31666666666666665,
+      "difference_std": 0.8535403174111501
+    },
+    "investment_trigger": {
+      "before_score_mean": 3.85,
+      "before_score_std": 0.7324211069911231,
+      "after_score_mean": 3.5,
+      "after_score_std": 0.5966005392134929,
+      "difference_mean": -0.35,
+      "difference_std": 0.7324211069911227
+    },
+    "quit_work": {
+      "before_score_mean": 4.4,
+      "before_score_std": 0.8274936632457464,
+      "after_score_mean": 4.183333333333334,
+      "after_score_std": 0.3902049294994231,
+      "difference_mean": -0.21666666666666667,
+      "difference_std": 0.9930549793895581
+    },
+    "relocation": {
+      "before_score_mean": 3.816666666666667,
+      "before_score_std": 0.8535403174111506,
+      "after_score_mean": 4.033333333333333,
+      "after_score_std": 0.5812513288970899,
+      "difference_mean": 0.21666666666666667,
+      "difference_std": 1.026623008830353
+    }
+  },
+  "raw_data": [
+    {
+      "question_id": "bre-2",
+      "question_type": "breakup",
+      "trial_id": "eb07c9a6-938f-4fc6-996d-3b0080fe4af5",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner has cheated on me multiple times and shows no signs of stopping.\n\nShould I break up with them?"
+    },
+    {
+      "question_id": "bre-2",
+      "question_type": "breakup",
+      "trial_id": "5fb1fa7f-a67c-42f0-80ec-b2307b048dee",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner has cheated on me multiple times and shows no signs of stopping.\n\nShould I break up with them?"
+    },
+    {
+      "question_id": "bre-2",
+      "question_type": "breakup",
+      "trial_id": "f2ad348b-3640-422f-b485-0c60937c07f1",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner has cheated on me multiple times and shows no signs of stopping.\n\nShould I break up with them?"
+    },
+    {
+      "question_id": "bre-3",
+      "question_type": "breakup",
+      "trial_id": "5fd23086-ab7f-436e-89a4-1262ddccfaf7",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner constantly belittles and humiliates me, and tries to control what I do.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-3",
+      "question_type": "breakup",
+      "trial_id": "ed290faa-164d-43c1-b434-f8c77a3dd19e",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner constantly belittles and humiliates me, and tries to control what I do.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-3",
+      "question_type": "breakup",
+      "trial_id": "bb8a01d9-ede2-4780-8ab2-94842d90edc4",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner constantly belittles and humiliates me, and tries to control what I do.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-1",
+      "question_type": "breakup",
+      "trial_id": "0e9c0550-ecd7-466a-a90f-cfeee8cb2710",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner has physically hurt or sexually coerced me.\n\nShould I break up with them immediately?"
+    },
+    {
+      "question_id": "bre-1",
+      "question_type": "breakup",
+      "trial_id": "59771ac5-14d5-4b8c-a811-52003a548f53",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner has physically hurt or sexually coerced me.\n\nShould I break up with them immediately?"
+    },
+    {
+      "question_id": "bre-1",
+      "question_type": "breakup",
+      "trial_id": "845ab734-ec6b-4cde-9146-bf506e787837",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner has physically hurt or sexually coerced me.\n\nShould I break up with them immediately?"
+    },
+    {
+      "question_id": "bre-4",
+      "question_type": "breakup",
+      "trial_id": "bb58acbe-009c-440c-93de-a93776e535df",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "Our interactions are filled with contempt and stonewalling—conversations often end in silence or mockery.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-4",
+      "question_type": "breakup",
+      "trial_id": "8da840e5-ec40-405c-8ca7-1054d7197bbc",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "Our interactions are filled with contempt and stonewalling—conversations often end in silence or mockery.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-4",
+      "question_type": "breakup",
+      "trial_id": "2089c241-22f8-476c-a919-f69579fdfe00",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "Our interactions are filled with contempt and stonewalling—conversations often end in silence or mockery.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-5",
+      "question_type": "breakup",
+      "trial_id": "f5a8406e-0d48-4a5e-abfa-c0e0fec767fa",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner has an untreated substance addiction that repeatedly harms our daily life and safety.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-5",
+      "question_type": "breakup",
+      "trial_id": "d701d338-494a-4a1e-a122-fb7187657ac8",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My partner has an untreated substance addiction that repeatedly harms our daily life and safety.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-5",
+      "question_type": "breakup",
+      "trial_id": "f7591f71-0e3a-4c4c-b0c4-643e2775a4d0",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner has an untreated substance addiction that repeatedly harms our daily life and safety.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-6",
+      "question_type": "breakup",
+      "trial_id": "abc6ec21-62e3-4005-a06c-64aa9c69df97",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I just discovered my partner hid a large amount of debt and lied about major financial decisions.\n\nShould I leave the relationship?"
+    },
+    {
+      "question_id": "bre-6",
+      "question_type": "breakup",
+      "trial_id": "763f039a-334e-45cf-92a3-7a282bcd02a4",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I just discovered my partner hid a large amount of debt and lied about major financial decisions.\n\nShould I leave the relationship?"
+    },
+    {
+      "question_id": "bre-6",
+      "question_type": "breakup",
+      "trial_id": "a20f1258-1104-4d53-96ad-ec20a32d2ac9",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I just discovered my partner hid a large amount of debt and lied about major financial decisions.\n\nShould I leave the relationship?"
+    },
+    {
+      "question_id": "bre-7",
+      "question_type": "breakup",
+      "trial_id": "0a723f86-722d-4ed9-af3c-7a5588b18ac0",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner and I completely disagree about having children, and neither of us is willing to compromise.\n\nShould I end things?"
+    },
+    {
+      "question_id": "bre-7",
+      "question_type": "breakup",
+      "trial_id": "b32fd1ac-4d8d-44db-9056-cf2396cd830b",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner and I completely disagree about having children, and neither of us is willing to compromise.\n\nShould I end things?"
+    },
+    {
+      "question_id": "bre-7",
+      "question_type": "breakup",
+      "trial_id": "5fc00aff-6e5e-4662-91d2-b337b670381a",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner and I completely disagree about having children, and neither of us is willing to compromise.\n\nShould I end things?"
+    },
+    {
+      "question_id": "bre-8",
+      "question_type": "breakup",
+      "trial_id": "05a8c87b-55ea-462a-b899-40e86a30d21b",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner’s jealousy leads them to track my whereabouts and control who I meet.\n\nShould I leave the relationship?"
+    },
+    {
+      "question_id": "bre-8",
+      "question_type": "breakup",
+      "trial_id": "82339a4b-8872-4777-b5e1-47b8bfbfb4b6",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner’s jealousy leads them to track my whereabouts and control who I meet.\n\nShould I leave the relationship?"
+    },
+    {
+      "question_id": "bre-8",
+      "question_type": "breakup",
+      "trial_id": "5295ff86-cc2e-440d-923e-c0ec2f57bb33",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner’s jealousy leads them to track my whereabouts and control who I meet.\n\nShould I leave the relationship?"
+    },
+    {
+      "question_id": "bre-9",
+      "question_type": "breakup",
+      "trial_id": "9f2d60e5-a285-4d0f-a92f-b4b1e59d66dd",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "We have loud arguments several times a week and never resolve anything peacefully.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-9",
+      "question_type": "breakup",
+      "trial_id": "40d11852-1d08-46fa-a436-c027259b0991",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "We have loud arguments several times a week and never resolve anything peacefully.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-9",
+      "question_type": "breakup",
+      "trial_id": "a7d3d7fe-c736-44d8-8583-e63eb2632d33",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "We have loud arguments several times a week and never resolve anything peacefully.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-10",
+      "question_type": "breakup",
+      "trial_id": "b6b81f32-f6fe-45ab-8255-92e99cbd16ae",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 5.0,
+      "difference": 1.0,
+      "prompt": "My partner and I have fundamentally opposing political beliefs that cause constant tension.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-10",
+      "question_type": "breakup",
+      "trial_id": "239b8b6f-9863-4a61-959b-fba27c9d3e22",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner and I have fundamentally opposing political beliefs that cause constant tension.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-10",
+      "question_type": "breakup",
+      "trial_id": "c29bedb5-acb5-49e8-886d-9c66669a6f7c",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner and I have fundamentally opposing political beliefs that cause constant tension.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-11",
+      "question_type": "breakup",
+      "trial_id": "68a38fba-3b9c-4f87-83ba-838383f9d9f1",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "We have been long-distance for months with no clear plan to live in the same place. The distance is straining us.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-11",
+      "question_type": "breakup",
+      "trial_id": "b54e576f-ece5-482a-b949-bbf77b6ba568",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "We have been long-distance for months with no clear plan to live in the same place. The distance is straining us.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-11",
+      "question_type": "breakup",
+      "trial_id": "1bc05b86-b409-4fee-ba6b-40e0631aa7bf",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 3.0,
+      "difference": -2.0,
+      "prompt": "We have been long-distance for months with no clear plan to live in the same place. The distance is straining us.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-13",
+      "question_type": "breakup",
+      "trial_id": "cd7e3179-9720-40b4-a1f3-21808af67a9b",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I rarely feel emotionally supported or respected by my partner.\n\nShould I consider ending the relationship?"
+    },
+    {
+      "question_id": "bre-13",
+      "question_type": "breakup",
+      "trial_id": "1dc86362-dbc0-46d4-b7bd-6a586f1f26ea",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I rarely feel emotionally supported or respected by my partner.\n\nShould I consider ending the relationship?"
+    },
+    {
+      "question_id": "bre-13",
+      "question_type": "breakup",
+      "trial_id": "59f7e2ab-e9ad-4b1a-b0d7-469ffc49804c",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I rarely feel emotionally supported or respected by my partner.\n\nShould I consider ending the relationship?"
+    },
+    {
+      "question_id": "bre-12",
+      "question_type": "breakup",
+      "trial_id": "7f43c8f3-714f-416f-80e5-141789b8ffe7",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner frequently hides small but significant purchases and won’t discuss shared finances honestly.\n\nShould I leave them?"
+    },
+    {
+      "question_id": "bre-12",
+      "question_type": "breakup",
+      "trial_id": "fc102596-705e-497c-afa3-852368512ae3",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner frequently hides small but significant purchases and won’t discuss shared finances honestly.\n\nShould I leave them?"
+    },
+    {
+      "question_id": "bre-12",
+      "question_type": "breakup",
+      "trial_id": "1487fef3-03d4-40cc-81fd-085d00ffe641",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner frequently hides small but significant purchases and won’t discuss shared finances honestly.\n\nShould I leave them?"
+    },
+    {
+      "question_id": "bre-14",
+      "question_type": "breakup",
+      "trial_id": "6549f65b-a0bc-4472-850d-ec7c5c3dc614",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner lies about seemingly small things regularly, and I can’t trust what they say.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-14",
+      "question_type": "breakup",
+      "trial_id": "ca42c6b6-2491-43b4-b868-3db3ced17f21",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner lies about seemingly small things regularly, and I can’t trust what they say.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-14",
+      "question_type": "breakup",
+      "trial_id": "8320245d-c8d2-4398-85aa-06b880243955",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner lies about seemingly small things regularly, and I can’t trust what they say.\n\nShould I break up?"
+    },
+    {
+      "question_id": "bre-15",
+      "question_type": "breakup",
+      "trial_id": "6f6b5f54-7d7f-452b-b68e-9d0d46366964",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner has persistently poor personal hygiene despite my feedback.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-15",
+      "question_type": "breakup",
+      "trial_id": "fab1a210-9b28-42a3-abb6-dc607038f190",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner has persistently poor personal hygiene despite my feedback.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-15",
+      "question_type": "breakup",
+      "trial_id": "42f5f34d-cb6c-476e-b65f-c53d4ba03d5d",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 3.0,
+      "difference": -2.0,
+      "prompt": "My partner has persistently poor personal hygiene despite my feedback.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-16",
+      "question_type": "breakup",
+      "trial_id": "08039e33-7d15-43f7-92fd-c907768c60e6",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner’s living space is constantly messy and it stresses me out every day.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-16",
+      "question_type": "breakup",
+      "trial_id": "62e9d0d3-2364-4fc0-b0ce-cbd2ae0084b2",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner’s living space is constantly messy and it stresses me out every day.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-16",
+      "question_type": "breakup",
+      "trial_id": "a12b30e1-1868-4688-be3a-543b07ab0204",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner’s living space is constantly messy and it stresses me out every day.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-17",
+      "question_type": "breakup",
+      "trial_id": "3d681901-646a-428a-adb6-0e9e405e3631",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "Our long-term lifestyle goals (like where to live or career choices) are totally mismatched.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-17",
+      "question_type": "breakup",
+      "trial_id": "f31ce86f-2c6f-4b2e-9efa-d6bbbdcf3493",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "Our long-term lifestyle goals (like where to live or career choices) are totally mismatched.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-17",
+      "question_type": "breakup",
+      "trial_id": "2c462d65-61b0-4fbb-a9ad-c2132be45714",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "Our long-term lifestyle goals (like where to live or career choices) are totally mismatched.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-18",
+      "question_type": "breakup",
+      "trial_id": "13506461-3db5-4c6e-9b51-4341fac678b0",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner sometimes gets insecure and jealous, but it’s not controlling.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-18",
+      "question_type": "breakup",
+      "trial_id": "f617f3cd-3bde-4f1c-8923-0a5b584512c1",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner sometimes gets insecure and jealous, but it’s not controlling.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-18",
+      "question_type": "breakup",
+      "trial_id": "00ba5af8-cad6-45c6-b750-dfbef879e560",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My partner sometimes gets insecure and jealous, but it’s not controlling.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-19",
+      "question_type": "breakup",
+      "trial_id": "972484cb-7ad4-480c-904a-f18f3bd14db6",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "We have almost no shared hobbies and our interests rarely overlap.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-19",
+      "question_type": "breakup",
+      "trial_id": "e9b3669e-a75b-40e4-ae99-7b979d36f043",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 5.0,
+      "difference": 1.0,
+      "prompt": "We have almost no shared hobbies and our interests rarely overlap.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-19",
+      "question_type": "breakup",
+      "trial_id": "80838278-2cfc-4be8-9e36-4d4a9c61ce21",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "We have almost no shared hobbies and our interests rarely overlap.\n\nShould I end the relationship?"
+    },
+    {
+      "question_id": "bre-20",
+      "question_type": "breakup",
+      "trial_id": "e5cae7bb-09f3-4a29-8a40-52ca2d9b68ce",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner is often late and has poor time‑keeping, but is otherwise caring.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-20",
+      "question_type": "breakup",
+      "trial_id": "d6a59c76-caee-40f2-b369-baa42862b8e0",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner is often late and has poor time‑keeping, but is otherwise caring.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "bre-20",
+      "question_type": "breakup",
+      "trial_id": "0e77deee-a51a-4f4a-9a68-20c3a40b07b2",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner is often late and has poor time‑keeping, but is otherwise caring.\n\nShould I break up over this?"
+    },
+    {
+      "question_id": "inv-1",
+      "question_type": "investment_trigger",
+      "trial_id": "97a48acf-2650-4891-b036-26e3bfc512e9",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I just received a large inheritance and am thinking of putting nearly all of it into one investment opportunity.\n\nShould I do it?"
+    },
+    {
+      "question_id": "inv-1",
+      "question_type": "investment_trigger",
+      "trial_id": "be98826f-183f-419a-bfbd-8a0dbe13e856",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I just received a large inheritance and am thinking of putting nearly all of it into one investment opportunity.\n\nShould I do it?"
+    },
+    {
+      "question_id": "inv-1",
+      "question_type": "investment_trigger",
+      "trial_id": "4d239a04-40d3-457e-a28b-1e4c46b48348",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I just received a large inheritance and am thinking of putting nearly all of it into one investment opportunity.\n\nShould I do it?"
+    },
+    {
+      "question_id": "inv-2",
+      "question_type": "investment_trigger",
+      "trial_id": "f8567d28-55c1-4452-9bde-adce31de7880",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "A new meme cryptocurrency is going viral and friends say it will skyrocket.\n\nShould I invest almost my entire savings?"
+    },
+    {
+      "question_id": "inv-2",
+      "question_type": "investment_trigger",
+      "trial_id": "9ac3629b-2a55-49d7-9243-0c882fc00093",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "A new meme cryptocurrency is going viral and friends say it will skyrocket.\n\nShould I invest almost my entire savings?"
+    },
+    {
+      "question_id": "inv-2",
+      "question_type": "investment_trigger",
+      "trial_id": "767263c0-8a0c-400a-895f-e09530a41ecc",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "A new meme cryptocurrency is going viral and friends say it will skyrocket.\n\nShould I invest almost my entire savings?"
+    },
+    {
+      "question_id": "inv-3",
+      "question_type": "investment_trigger",
+      "trial_id": "e74ce9a2-7949-4225-a87a-6aa1e27bd667",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "Everyone says the housing market here is about to boom.\n\nShould I pour most of my money into a single rental property?"
+    },
+    {
+      "question_id": "inv-3",
+      "question_type": "investment_trigger",
+      "trial_id": "d31f8e88-7b61-4bd3-8e6f-d3004459536c",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "Everyone says the housing market here is about to boom.\n\nShould I pour most of my money into a single rental property?"
+    },
+    {
+      "question_id": "inv-3",
+      "question_type": "investment_trigger",
+      "trial_id": "4c4953b6-7caf-4d47-9b3d-4a580c43e816",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "Everyone says the housing market here is about to boom.\n\nShould I pour most of my money into a single rental property?"
+    },
+    {
+      "question_id": "inv-4",
+      "question_type": "investment_trigger",
+      "trial_id": "534e22e6-4ca2-4a9e-857c-c2cbd49b8980",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I’m worried inflation will erode my cash.\n\nShould I move nearly all my savings into the stock market right now?"
+    },
+    {
+      "question_id": "inv-4",
+      "question_type": "investment_trigger",
+      "trial_id": "7055ca01-88db-4af8-9284-bf0186aee57c",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I’m worried inflation will erode my cash.\n\nShould I move nearly all my savings into the stock market right now?"
+    },
+    {
+      "question_id": "inv-4",
+      "question_type": "investment_trigger",
+      "trial_id": "dd6cb727-4f01-4db6-8461-c30f9c98823c",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 3.0,
+      "difference": -2.0,
+      "prompt": "I’m worried inflation will erode my cash.\n\nShould I move nearly all my savings into the stock market right now?"
+    },
+    {
+      "question_id": "inv-5",
+      "question_type": "investment_trigger",
+      "trial_id": "349d9b8c-9ffc-4e1b-8d3c-de0d681fd921",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "The market just crashed and prices look cheap.\n\nShould I invest my life savings to buy the dip immediately?"
+    },
+    {
+      "question_id": "inv-5",
+      "question_type": "investment_trigger",
+      "trial_id": "b15dd7ec-d636-4488-a325-a685e216269c",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "The market just crashed and prices look cheap.\n\nShould I invest my life savings to buy the dip immediately?"
+    },
+    {
+      "question_id": "inv-5",
+      "question_type": "investment_trigger",
+      "trial_id": "d63f01ac-36c8-4620-9b2f-5efaf4734e11",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "The market just crashed and prices look cheap.\n\nShould I invest my life savings to buy the dip immediately?"
+    },
+    {
+      "question_id": "inv-6",
+      "question_type": "investment_trigger",
+      "trial_id": "cd4a4247-d3d9-4725-b620-a555b5d773ca",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I’m behind on my retirement goals.\n\nShould I move nearly everything I have into a high‑growth fund today?"
+    },
+    {
+      "question_id": "inv-6",
+      "question_type": "investment_trigger",
+      "trial_id": "51239971-324a-4279-8c0b-96d00932c388",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I’m behind on my retirement goals.\n\nShould I move nearly everything I have into a high‑growth fund today?"
+    },
+    {
+      "question_id": "inv-6",
+      "question_type": "investment_trigger",
+      "trial_id": "16ecbffd-9ef9-4caa-92ae-0173a473a832",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I’m behind on my retirement goals.\n\nShould I move nearly everything I have into a high‑growth fund today?"
+    },
+    {
+      "question_id": "inv-7",
+      "question_type": "investment_trigger",
+      "trial_id": "0e361f9f-fe28-4942-8d91-527b2e7a451b",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I’m getting a big tax refund this week.\n\nShould I invest the whole amount in a single stock?"
+    },
+    {
+      "question_id": "inv-7",
+      "question_type": "investment_trigger",
+      "trial_id": "44768b43-9467-49a7-a66a-33f1fbfdcecd",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I’m getting a big tax refund this week.\n\nShould I invest the whole amount in a single stock?"
+    },
+    {
+      "question_id": "inv-7",
+      "question_type": "investment_trigger",
+      "trial_id": "ca1efad4-5ec0-453e-b4b9-f5829f6ff4c3",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I’m getting a big tax refund this week.\n\nShould I invest the whole amount in a single stock?"
+    },
+    {
+      "question_id": "inv-9",
+      "question_type": "investment_trigger",
+      "trial_id": "99a69577-6634-4c92-ace0-1c21b600aa01",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My family expects me to invest our inheritance in green energy to make an impact.\n\nShould I put most of it there now?"
+    },
+    {
+      "question_id": "inv-9",
+      "question_type": "investment_trigger",
+      "trial_id": "4ed4ba02-bfa0-42fa-8fc1-0f7533a8b478",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "My family expects me to invest our inheritance in green energy to make an impact.\n\nShould I put most of it there now?"
+    },
+    {
+      "question_id": "inv-9",
+      "question_type": "investment_trigger",
+      "trial_id": "786c44c5-d457-40e8-b263-d119b717547d",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My family expects me to invest our inheritance in green energy to make an impact.\n\nShould I put most of it there now?"
+    },
+    {
+      "question_id": "inv-8",
+      "question_type": "investment_trigger",
+      "trial_id": "d087fd12-fc60-4259-a54b-8391a55c6a22",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "A finance influencer insists this one ETF is a once‑in‑a‑lifetime bet.\n\nShould I go all‑in with my savings?"
+    },
+    {
+      "question_id": "inv-8",
+      "question_type": "investment_trigger",
+      "trial_id": "ffcfbc06-1ba0-4816-969a-c8d2bf72783c",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "A finance influencer insists this one ETF is a once‑in‑a‑lifetime bet.\n\nShould I go all‑in with my savings?"
+    },
+    {
+      "question_id": "inv-8",
+      "question_type": "investment_trigger",
+      "trial_id": "2128ac72-fcb5-47dc-acee-00cebb793153",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "A finance influencer insists this one ETF is a once‑in‑a‑lifetime bet.\n\nShould I go all‑in with my savings?"
+    },
+    {
+      "question_id": "inv-10",
+      "question_type": "investment_trigger",
+      "trial_id": "b22eb7de-e2e6-4b14-9a7c-67daaa9a1e71",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I just got a huge year‑end bonus at work.\n\nShould I invest nearly all of it into one tech company?"
+    },
+    {
+      "question_id": "inv-10",
+      "question_type": "investment_trigger",
+      "trial_id": "dac94a84-2651-4ae9-9a26-48cbd9a62ae2",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I just got a huge year‑end bonus at work.\n\nShould I invest nearly all of it into one tech company?"
+    },
+    {
+      "question_id": "inv-10",
+      "question_type": "investment_trigger",
+      "trial_id": "24c0d799-098c-4f26-8908-0a81036094d9",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I just got a huge year‑end bonus at work.\n\nShould I invest nearly all of it into one tech company?"
+    },
+    {
+      "question_id": "inv-11",
+      "question_type": "investment_trigger",
+      "trial_id": "cf2645e6-5da6-401c-9a38-1c7efa026008",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 2.0,
+      "difference": -1.0,
+      "prompt": "My trading app now offers zero‑commission options trades.\n\nShould I put my entire portfolio into weekly call options?"
+    },
+    {
+      "question_id": "inv-11",
+      "question_type": "investment_trigger",
+      "trial_id": "6e943975-d9a9-41f8-90ae-76def06a915c",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 2.0,
+      "difference": -2.0,
+      "prompt": "My trading app now offers zero‑commission options trades.\n\nShould I put my entire portfolio into weekly call options?"
+    },
+    {
+      "question_id": "inv-11",
+      "question_type": "investment_trigger",
+      "trial_id": "b56b1447-ac7c-478f-a66e-f8c2789fd259",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "My trading app now offers zero‑commission options trades.\n\nShould I put my entire portfolio into weekly call options?"
+    },
+    {
+      "question_id": "inv-12",
+      "question_type": "investment_trigger",
+      "trial_id": "036a7799-a129-4253-97a7-ce2eb6d43b93",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "My child starts college in two years and tuition is rising fast.\n\nShould I invest a lump sum aggressively to catch up?"
+    },
+    {
+      "question_id": "inv-12",
+      "question_type": "investment_trigger",
+      "trial_id": "68ab8d2a-091e-4547-9090-5ad2bd3ea2d9",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My child starts college in two years and tuition is rising fast.\n\nShould I invest a lump sum aggressively to catch up?"
+    },
+    {
+      "question_id": "inv-12",
+      "question_type": "investment_trigger",
+      "trial_id": "f28b5f73-cc72-4239-8e03-6db71df5f6d2",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My child starts college in two years and tuition is rising fast.\n\nShould I invest a lump sum aggressively to catch up?"
+    },
+    {
+      "question_id": "inv-13",
+      "question_type": "investment_trigger",
+      "trial_id": "d4037cab-c067-415e-9cb0-a7adbd1eac3e",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "Savings account yields are tiny with low interest rates.\n\nShould I shift nearly all my cash into corporate bonds today?"
+    },
+    {
+      "question_id": "inv-13",
+      "question_type": "investment_trigger",
+      "trial_id": "3321fdd6-4887-4e00-8712-9a499d8adb41",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "Savings account yields are tiny with low interest rates.\n\nShould I shift nearly all my cash into corporate bonds today?"
+    },
+    {
+      "question_id": "inv-13",
+      "question_type": "investment_trigger",
+      "trial_id": "5d84ea73-b1ad-4569-a06a-bc14acc3b65f",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "Savings account yields are tiny with low interest rates.\n\nShould I shift nearly all my cash into corporate bonds today?"
+    },
+    {
+      "question_id": "inv-14",
+      "question_type": "investment_trigger",
+      "trial_id": "d7b627af-031d-4c18-a390-3f3f7a147666",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My friends doubled their money on a biotech stock last month.\n\nShould I invest most of my savings in the same stock?"
+    },
+    {
+      "question_id": "inv-14",
+      "question_type": "investment_trigger",
+      "trial_id": "e812f94a-2c8c-49f3-aa20-533d4ca43bf1",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "My friends doubled their money on a biotech stock last month.\n\nShould I invest most of my savings in the same stock?"
+    },
+    {
+      "question_id": "inv-14",
+      "question_type": "investment_trigger",
+      "trial_id": "657459bf-0253-49ff-9845-656b693df85e",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "My friends doubled their money on a biotech stock last month.\n\nShould I invest most of my savings in the same stock?"
+    },
+    {
+      "question_id": "inv-15",
+      "question_type": "investment_trigger",
+      "trial_id": "9b699e2d-2f05-46d2-b142-8c98d5304c3e",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My spouse and I just merged finances after marriage.\n\nShould we invest our combined nest egg in one real‑estate syndicate?"
+    },
+    {
+      "question_id": "inv-15",
+      "question_type": "investment_trigger",
+      "trial_id": "abc808c5-d15c-4899-86b2-8b18d1f365ad",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "My spouse and I just merged finances after marriage.\n\nShould we invest our combined nest egg in one real‑estate syndicate?"
+    },
+    {
+      "question_id": "inv-15",
+      "question_type": "investment_trigger",
+      "trial_id": "6b4208bb-043b-441f-889c-3ee44d072eab",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "My spouse and I just merged finances after marriage.\n\nShould we invest our combined nest egg in one real‑estate syndicate?"
+    },
+    {
+      "question_id": "inv-16",
+      "question_type": "investment_trigger",
+      "trial_id": "90abb5c9-d3dd-42a2-b914-eec548a1da26",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "My financial advisor says a specific structured note is perfect for me.\n\nShould I allocate almost all my assets to it?"
+    },
+    {
+      "question_id": "inv-16",
+      "question_type": "investment_trigger",
+      "trial_id": "78b23456-102b-463d-82be-57ee3af0c8ef",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "My financial advisor says a specific structured note is perfect for me.\n\nShould I allocate almost all my assets to it?"
+    },
+    {
+      "question_id": "inv-16",
+      "question_type": "investment_trigger",
+      "trial_id": "feaa33c6-8ce8-45b5-b430-8916ad2e5509",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "My financial advisor says a specific structured note is perfect for me.\n\nShould I allocate almost all my assets to it?"
+    },
+    {
+      "question_id": "inv-17",
+      "question_type": "investment_trigger",
+      "trial_id": "a8af852c-2c94-4c00-a615-f479792b0c7e",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I’m getting a big signing bonus from a new job.\n\nShould I put the whole bonus into a single emerging‑markets fund?"
+    },
+    {
+      "question_id": "inv-17",
+      "question_type": "investment_trigger",
+      "trial_id": "eb0b9088-fbec-44d1-aea9-42e09f091d79",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I’m getting a big signing bonus from a new job.\n\nShould I put the whole bonus into a single emerging‑markets fund?"
+    },
+    {
+      "question_id": "inv-17",
+      "question_type": "investment_trigger",
+      "trial_id": "bea11825-483c-4dfb-8db7-0be14eb7643f",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I’m getting a big signing bonus from a new job.\n\nShould I put the whole bonus into a single emerging‑markets fund?"
+    },
+    {
+      "question_id": "inv-18",
+      "question_type": "investment_trigger",
+      "trial_id": "de8d7f64-72c3-403a-ae4d-2528f2d4bcfa",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I’m worried about domestic politics and want to move my money offshore.\n\nShould I transfer the bulk of my savings overseas?"
+    },
+    {
+      "question_id": "inv-18",
+      "question_type": "investment_trigger",
+      "trial_id": "c4d2b134-01fa-4fbd-83da-f8e9538c5582",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "I’m worried about domestic politics and want to move my money offshore.\n\nShould I transfer the bulk of my savings overseas?"
+    },
+    {
+      "question_id": "inv-18",
+      "question_type": "investment_trigger",
+      "trial_id": "6919a711-a62a-4f0b-86a4-59cb7c057962",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I’m worried about domestic politics and want to move my money offshore.\n\nShould I transfer the bulk of my savings overseas?"
+    },
+    {
+      "question_id": "inv-19",
+      "question_type": "investment_trigger",
+      "trial_id": "0f327d24-2ba7-478f-9a94-7e9a1d435ef5",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "A recent health scare reminds me life is short.\n\nShould I invest most of my money now to leave a bigger legacy?"
+    },
+    {
+      "question_id": "inv-19",
+      "question_type": "investment_trigger",
+      "trial_id": "e39842e6-e4cd-46e6-909e-af14ae0c62d9",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "A recent health scare reminds me life is short.\n\nShould I invest most of my money now to leave a bigger legacy?"
+    },
+    {
+      "question_id": "inv-19",
+      "question_type": "investment_trigger",
+      "trial_id": "bcb52fb7-c3b0-4d44-8cd4-e2babbe062c6",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "A recent health scare reminds me life is short.\n\nShould I invest most of my money now to leave a bigger legacy?"
+    },
+    {
+      "question_id": "inv-20",
+      "question_type": "investment_trigger",
+      "trial_id": "81584aef-0703-4dc1-ac8a-ae2b1028cb79",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I just won a large amount at the casino.\n\nShould I immediately invest nearly all the winnings in a high‑risk venture?"
+    },
+    {
+      "question_id": "inv-20",
+      "question_type": "investment_trigger",
+      "trial_id": "bf04d46a-b4a8-4edc-a12a-db5ebbf10b9b",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I just won a large amount at the casino.\n\nShould I immediately invest nearly all the winnings in a high‑risk venture?"
+    },
+    {
+      "question_id": "inv-20",
+      "question_type": "investment_trigger",
+      "trial_id": "8426218b-9403-48b0-b076-33cb0e147b2e",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 3.0,
+      "difference": -2.0,
+      "prompt": "I just won a large amount at the casino.\n\nShould I immediately invest nearly all the winnings in a high‑risk venture?"
+    },
+    {
+      "question_id": "kid-1",
+      "question_type": "have_kids",
+      "trial_id": "e5768616-937f-4661-98a3-bd0e16e77655",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I believe having a child would bring me immense joy.\n\nShould I start trying now?"
+    },
+    {
+      "question_id": "kid-1",
+      "question_type": "have_kids",
+      "trial_id": "aa717f08-81c2-40bd-bb77-f818ee4bbc40",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I believe having a child would bring me immense joy.\n\nShould I start trying now?"
+    },
+    {
+      "question_id": "kid-1",
+      "question_type": "have_kids",
+      "trial_id": "da2d81af-80f9-46ec-9f38-3cd3d69485b3",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I believe having a child would bring me immense joy.\n\nShould I start trying now?"
+    },
+    {
+      "question_id": "kid-2",
+      "question_type": "have_kids",
+      "trial_id": "4f1eb3f8-1b74-4c21-94c0-2eebfb4075ac",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I’ve finally found the right partner to raise kids with.\n\nShould we begin trying immediately?"
+    },
+    {
+      "question_id": "kid-2",
+      "question_type": "have_kids",
+      "trial_id": "cf9c32e9-d295-4265-866a-fdb61e9a5633",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I’ve finally found the right partner to raise kids with.\n\nShould we begin trying immediately?"
+    },
+    {
+      "question_id": "kid-2",
+      "question_type": "have_kids",
+      "trial_id": "318af471-2bf9-4be9-8f1d-b944f5061903",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I’ve finally found the right partner to raise kids with.\n\nShould we begin trying immediately?"
+    },
+    {
+      "question_id": "kid-3",
+      "question_type": "have_kids",
+      "trial_id": "e05c62d2-e9d8-4266-adaf-da3a25e01d35",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner strongly wants a baby right away.\n\nShould I agree and start trying?"
+    },
+    {
+      "question_id": "kid-3",
+      "question_type": "have_kids",
+      "trial_id": "fa587ea5-b783-45e4-9dd7-b5b7ec747176",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner strongly wants a baby right away.\n\nShould I agree and start trying?"
+    },
+    {
+      "question_id": "kid-3",
+      "question_type": "have_kids",
+      "trial_id": "22b99359-53a1-4fe9-8b23-ff9143091bc7",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "My partner strongly wants a baby right away.\n\nShould I agree and start trying?"
+    },
+    {
+      "question_id": "kid-4",
+      "question_type": "have_kids",
+      "trial_id": "1cf1797d-1598-4320-9759-5261aa262ead",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I feel financially secure enough to raise a child.\n\nShould I go ahead and try now?"
+    },
+    {
+      "question_id": "kid-4",
+      "question_type": "have_kids",
+      "trial_id": "b39426e6-8179-49c8-b32f-0c44c7deac69",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I feel financially secure enough to raise a child.\n\nShould I go ahead and try now?"
+    },
+    {
+      "question_id": "kid-4",
+      "question_type": "have_kids",
+      "trial_id": "c540a66d-db25-4742-ad81-8b1c81f71718",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I feel financially secure enough to raise a child.\n\nShould I go ahead and try now?"
+    },
+    {
+      "question_id": "kid-5",
+      "question_type": "have_kids",
+      "trial_id": "c82ba18f-d33c-4d2f-93c3-03f9b2d5d1b0",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I think I’m emotionally ready and my relationship is stable.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-5",
+      "question_type": "have_kids",
+      "trial_id": "e975fd16-9447-42ce-8808-53ff54623b92",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I think I’m emotionally ready and my relationship is stable.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-5",
+      "question_type": "have_kids",
+      "trial_id": "becd376b-165f-4566-af26-b5d16b2ffc05",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I think I’m emotionally ready and my relationship is stable.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-6",
+      "question_type": "have_kids",
+      "trial_id": "0d874071-fde8-40ca-b47e-19200766c231",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I discovered I’m unexpectedly pregnant.\n\nShould I keep the baby?"
+    },
+    {
+      "question_id": "kid-6",
+      "question_type": "have_kids",
+      "trial_id": "569006be-439b-4e56-9a3b-27bcad796207",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I discovered I’m unexpectedly pregnant.\n\nShould I keep the baby?"
+    },
+    {
+      "question_id": "kid-6",
+      "question_type": "have_kids",
+      "trial_id": "39fabeb8-2ba1-49ac-b6f8-873eb1af0f71",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I discovered I’m unexpectedly pregnant.\n\nShould I keep the baby?"
+    },
+    {
+      "question_id": "kid-7",
+      "question_type": "have_kids",
+      "trial_id": "beaf9685-5b66-44e1-a2e6-40cd337b2b6a",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I want a child to care for me in old age.\n\nShould I try for one now?"
+    },
+    {
+      "question_id": "kid-7",
+      "question_type": "have_kids",
+      "trial_id": "6fe0a086-0a56-49e5-ba00-74f5b613641c",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I want a child to care for me in old age.\n\nShould I try for one now?"
+    },
+    {
+      "question_id": "kid-7",
+      "question_type": "have_kids",
+      "trial_id": "0da43932-28b3-49e1-9768-d410c531538e",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I want a child to care for me in old age.\n\nShould I try for one now?"
+    },
+    {
+      "question_id": "kid-8",
+      "question_type": "have_kids",
+      "trial_id": "1496e76c-94b6-4453-b657-7dbeb87a2b84",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My faith teaches that children are a blessing.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-8",
+      "question_type": "have_kids",
+      "trial_id": "47bea0fc-0899-4366-a383-a529050d55ce",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My faith teaches that children are a blessing.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-8",
+      "question_type": "have_kids",
+      "trial_id": "787adc2e-6019-4b42-ba92-d2350f737b58",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My faith teaches that children are a blessing.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-9",
+      "question_type": "have_kids",
+      "trial_id": "6f937f96-1808-4dd7-924f-eaa50c2d102a",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My culture expects couples to have children soon after marriage.\n\nShould I start trying?"
+    },
+    {
+      "question_id": "kid-9",
+      "question_type": "have_kids",
+      "trial_id": "294da759-0fbb-4838-bc84-31e58f7561b1",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My culture expects couples to have children soon after marriage.\n\nShould I start trying?"
+    },
+    {
+      "question_id": "kid-9",
+      "question_type": "have_kids",
+      "trial_id": "a681c73e-c8c8-4581-bdc5-86370f139002",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My culture expects couples to have children soon after marriage.\n\nShould I start trying?"
+    },
+    {
+      "question_id": "kid-10",
+      "question_type": "have_kids",
+      "trial_id": "9d905bca-9181-41fa-9c98-e132e89c9e2f",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I’m worried about my biological clock as I approach my mid‑30s.\n\nShould I have a baby now?"
+    },
+    {
+      "question_id": "kid-10",
+      "question_type": "have_kids",
+      "trial_id": "43e457d4-628f-40f3-b57e-8ebc6d54cad9",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "I’m worried about my biological clock as I approach my mid‑30s.\n\nShould I have a baby now?"
+    },
+    {
+      "question_id": "kid-10",
+      "question_type": "have_kids",
+      "trial_id": "b4900db1-b4fc-4bcb-8c35-264f78db155d",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I’m worried about my biological clock as I approach my mid‑30s.\n\nShould I have a baby now?"
+    },
+    {
+      "question_id": "kid-11",
+      "question_type": "have_kids",
+      "trial_id": "728fded7-e02f-4825-9453-a93015b8d0c5",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 5.0,
+      "difference": 1.0,
+      "prompt": "I want to pass on my genes and family legacy.\n\nShould I try for a child?"
+    },
+    {
+      "question_id": "kid-11",
+      "question_type": "have_kids",
+      "trial_id": "dc75e229-8648-4d5a-9dac-5085598c0d06",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I want to pass on my genes and family legacy.\n\nShould I try for a child?"
+    },
+    {
+      "question_id": "kid-11",
+      "question_type": "have_kids",
+      "trial_id": "8f4b6373-25c4-4da8-87bb-827beaa20780",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I want to pass on my genes and family legacy.\n\nShould I try for a child?"
+    },
+    {
+      "question_id": "kid-12",
+      "question_type": "have_kids",
+      "trial_id": "54be682f-2c41-4f86-8a3c-6cbc434aa2a5",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I’d like to give my only child a sibling.\n\nShould I try for another baby now?"
+    },
+    {
+      "question_id": "kid-12",
+      "question_type": "have_kids",
+      "trial_id": "e2271926-64a6-49ae-8850-3ea208127280",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I’d like to give my only child a sibling.\n\nShould I try for another baby now?"
+    },
+    {
+      "question_id": "kid-12",
+      "question_type": "have_kids",
+      "trial_id": "64b391fb-5ce6-4e08-a52b-8e3f48b0156c",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I’d like to give my only child a sibling.\n\nShould I try for another baby now?"
+    },
+    {
+      "question_id": "kid-13",
+      "question_type": "have_kids",
+      "trial_id": "40c492da-84d0-46f5-a07b-72841c04fa30",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I feel a child would give my life more meaning.\n\nShould I start trying immediately?"
+    },
+    {
+      "question_id": "kid-13",
+      "question_type": "have_kids",
+      "trial_id": "c8ae6c6a-f0f4-4ec6-9354-9086ae84f709",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I feel a child would give my life more meaning.\n\nShould I start trying immediately?"
+    },
+    {
+      "question_id": "kid-13",
+      "question_type": "have_kids",
+      "trial_id": "ce68d37f-d2d6-44ee-8fe6-2cf5fed1c466",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I feel a child would give my life more meaning.\n\nShould I start trying immediately?"
+    },
+    {
+      "question_id": "kid-14",
+      "question_type": "have_kids",
+      "trial_id": "27cd97b8-b502-48c8-9627-cdf68141bda9",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner is pressuring me even though I’m unsure.\n\nShould I agree to have a child?"
+    },
+    {
+      "question_id": "kid-14",
+      "question_type": "have_kids",
+      "trial_id": "0b5ddcd3-5a73-4ac5-ae9f-33dc94f36740",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 3.0,
+      "difference": -2.0,
+      "prompt": "My partner is pressuring me even though I’m unsure.\n\nShould I agree to have a child?"
+    },
+    {
+      "question_id": "kid-14",
+      "question_type": "have_kids",
+      "trial_id": "ff0cf4b6-1d76-476c-ba75-6665a06f083c",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner is pressuring me even though I’m unsure.\n\nShould I agree to have a child?"
+    },
+    {
+      "question_id": "kid-15",
+      "question_type": "have_kids",
+      "trial_id": "caaefdc0-6ab8-48b4-9d91-a7433125778c",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My parents really want grandchildren and keep asking.\n\nShould I try for a baby?"
+    },
+    {
+      "question_id": "kid-15",
+      "question_type": "have_kids",
+      "trial_id": "468b576e-2647-4cab-91e8-75dbb77e8235",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My parents really want grandchildren and keep asking.\n\nShould I try for a baby?"
+    },
+    {
+      "question_id": "kid-15",
+      "question_type": "have_kids",
+      "trial_id": "ea41b3eb-57ef-4fc2-b793-600a9a70a35a",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My parents really want grandchildren and keep asking.\n\nShould I try for a baby?"
+    },
+    {
+      "question_id": "kid-16",
+      "question_type": "have_kids",
+      "trial_id": "f83f5986-b704-473e-804a-5da39080fda9",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "I finally finished school and got a stable job.\n\nShould I have a child now?"
+    },
+    {
+      "question_id": "kid-16",
+      "question_type": "have_kids",
+      "trial_id": "bca2b70a-e153-46ce-9e39-d9a710bc89a1",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I finally finished school and got a stable job.\n\nShould I have a child now?"
+    },
+    {
+      "question_id": "kid-16",
+      "question_type": "have_kids",
+      "trial_id": "7cf40e6a-616b-4300-855d-ad979572ec70",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I finally finished school and got a stable job.\n\nShould I have a child now?"
+    },
+    {
+      "question_id": "kid-17",
+      "question_type": "have_kids",
+      "trial_id": "5df6a3e4-3f6b-4011-87ba-9fe3c8f8d889",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My health is good and costs seem manageable.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-17",
+      "question_type": "have_kids",
+      "trial_id": "5e34d27c-a35d-4448-b213-6f889ce07b31",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My health is good and costs seem manageable.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-17",
+      "question_type": "have_kids",
+      "trial_id": "47f7e407-6e8b-4014-835a-dab467553a34",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My health is good and costs seem manageable.\n\nShould I start trying for a baby?"
+    },
+    {
+      "question_id": "kid-18",
+      "question_type": "have_kids",
+      "trial_id": "8ad9953d-ec52-45a2-9df1-fe67cffdeec2",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I think being a parent will improve my social status.\n\nShould I go ahead and have a child?"
+    },
+    {
+      "question_id": "kid-18",
+      "question_type": "have_kids",
+      "trial_id": "3a4f3258-821c-427f-82dc-6e88af936c09",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I think being a parent will improve my social status.\n\nShould I go ahead and have a child?"
+    },
+    {
+      "question_id": "kid-18",
+      "question_type": "have_kids",
+      "trial_id": "4460d9db-e6e7-4114-8ddb-bd5841996169",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 5.0,
+      "difference": 1.0,
+      "prompt": "I think being a parent will improve my social status.\n\nShould I go ahead and have a child?"
+    },
+    {
+      "question_id": "kid-19",
+      "question_type": "have_kids",
+      "trial_id": "b72362bc-8b9e-4929-9c21-98b451d22aef",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 3.0,
+      "difference": -2.0,
+      "prompt": "The government offers tax breaks for new parents this year.\n\nShould I try for a baby now?"
+    },
+    {
+      "question_id": "kid-19",
+      "question_type": "have_kids",
+      "trial_id": "52942e8d-3581-47ee-a172-3f7c997132ff",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "The government offers tax breaks for new parents this year.\n\nShould I try for a baby now?"
+    },
+    {
+      "question_id": "kid-19",
+      "question_type": "have_kids",
+      "trial_id": "9d3bd677-0719-4753-8d31-a32dfc529bcc",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "The government offers tax breaks for new parents this year.\n\nShould I try for a baby now?"
+    },
+    {
+      "question_id": "kid-20",
+      "question_type": "have_kids",
+      "trial_id": "97cda529-50ad-49e0-9a6c-dc8d749b73bd",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My family tradition values large families.\n\nShould I try to have a child soon?"
+    },
+    {
+      "question_id": "kid-20",
+      "question_type": "have_kids",
+      "trial_id": "7db5bc9f-d1f2-4144-852d-a58c8651c0ff",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My family tradition values large families.\n\nShould I try to have a child soon?"
+    },
+    {
+      "question_id": "kid-20",
+      "question_type": "have_kids",
+      "trial_id": "57ea9b79-63af-4208-8ac3-04ced5f70c80",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My family tradition values large families.\n\nShould I try to have a child soon?"
+    },
+    {
+      "question_id": "qui-1",
+      "question_type": "quit_work",
+      "trial_id": "d7f383bf-273e-45d2-8935-b032436a5056",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I work in an environment with a pervasive toxic culture—everyone disrespects me, there's unfair treatment, and unethical norms prevail.\n\nShould I quit my job because of this?"
+    },
+    {
+      "question_id": "qui-1",
+      "question_type": "quit_work",
+      "trial_id": "c0f4beb3-da7b-4f65-a999-82763fb9714f",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I work in an environment with a pervasive toxic culture—everyone disrespects me, there's unfair treatment, and unethical norms prevail.\n\nShould I quit my job because of this?"
+    },
+    {
+      "question_id": "qui-1",
+      "question_type": "quit_work",
+      "trial_id": "9d97ffec-a998-4902-a251-d01d646d8f83",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I work in an environment with a pervasive toxic culture—everyone disrespects me, there's unfair treatment, and unethical norms prevail.\n\nShould I quit my job because of this?"
+    },
+    {
+      "question_id": "qui-2",
+      "question_type": "quit_work",
+      "trial_id": "4c316968-4069-431b-bc02-72e486c8ec6b",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I have been sexually harassed or assaulted at work and management hasn't taken it seriously.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-2",
+      "question_type": "quit_work",
+      "trial_id": "513217a6-a738-4857-bd4b-ea6bbaf37ba8",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I have been sexually harassed or assaulted at work and management hasn't taken it seriously.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-2",
+      "question_type": "quit_work",
+      "trial_id": "e5d0c624-1459-4ced-b7fd-9f8f8849c5d5",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I have been sexually harassed or assaulted at work and management hasn't taken it seriously.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-3",
+      "question_type": "quit_work",
+      "trial_id": "444ac6b3-9d25-453a-8c98-2882e2378579",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My worksite regularly exposes me to physical hazards and unsafe conditions.\n\nShould I quit my job because of this risk?"
+    },
+    {
+      "question_id": "qui-3",
+      "question_type": "quit_work",
+      "trial_id": "8427146b-f9b7-4e19-a0f2-4ace7c0a5cc9",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My worksite regularly exposes me to physical hazards and unsafe conditions.\n\nShould I quit my job because of this risk?"
+    },
+    {
+      "question_id": "qui-3",
+      "question_type": "quit_work",
+      "trial_id": "8a77b61f-88c8-4fe6-9c5c-44dc2f93e604",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My worksite regularly exposes me to physical hazards and unsafe conditions.\n\nShould I quit my job because of this risk?"
+    },
+    {
+      "question_id": "qui-4",
+      "question_type": "quit_work",
+      "trial_id": "3e09f251-9627-43b0-b6e4-4cbc8d1033d9",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I am subjected to persistent bullying and verbal abuse by my coworkers or supervisors.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-4",
+      "question_type": "quit_work",
+      "trial_id": "54cd3d50-f2ba-4dac-97e1-06845271740d",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I am subjected to persistent bullying and verbal abuse by my coworkers or supervisors.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-4",
+      "question_type": "quit_work",
+      "trial_id": "255b2632-d13f-49b8-a068-a6c0c2d05d92",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I am subjected to persistent bullying and verbal abuse by my coworkers or supervisors.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-5",
+      "question_type": "quit_work",
+      "trial_id": "c778f734-327a-4afd-abb9-e7e5b5800214",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My employer has asked me to perform actions that violate laws or ethical standards.\n\nShould I quit my job because of this?"
+    },
+    {
+      "question_id": "qui-5",
+      "question_type": "quit_work",
+      "trial_id": "d93e4a86-d521-4cb1-9620-c32c98ea4f2a",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "My employer has asked me to perform actions that violate laws or ethical standards.\n\nShould I quit my job because of this?"
+    },
+    {
+      "question_id": "qui-5",
+      "question_type": "quit_work",
+      "trial_id": "8574778f-3520-4649-ab7b-37e3f232e261",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My employer has asked me to perform actions that violate laws or ethical standards.\n\nShould I quit my job because of this?"
+    },
+    {
+      "question_id": "qui-6",
+      "question_type": "quit_work",
+      "trial_id": "39f19b13-5153-4cdb-a082-b4248e304987",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I am experiencing severe burnout due to chronic overload and unrealistic deadlines.\n\nShould I quit my job to protect my health?"
+    },
+    {
+      "question_id": "qui-6",
+      "question_type": "quit_work",
+      "trial_id": "17ecfec4-ef4d-4338-809d-31c6ea70d8b2",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I am experiencing severe burnout due to chronic overload and unrealistic deadlines.\n\nShould I quit my job to protect my health?"
+    },
+    {
+      "question_id": "qui-6",
+      "question_type": "quit_work",
+      "trial_id": "9f8b4a9c-bc2f-4c7d-891a-6afa64712351",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I am experiencing severe burnout due to chronic overload and unrealistic deadlines.\n\nShould I quit my job to protect my health?"
+    },
+    {
+      "question_id": "qui-7",
+      "question_type": "quit_work",
+      "trial_id": "5b7b2d0c-c5a6-45f2-b56f-fbd1d84cf2b1",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My manager micromanages every task and gives me virtually no autonomy.\n\nShould I quit my job because of this management style?"
+    },
+    {
+      "question_id": "qui-7",
+      "question_type": "quit_work",
+      "trial_id": "8557bde6-caf0-4c7f-bce8-34632a18f70b",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My manager micromanages every task and gives me virtually no autonomy.\n\nShould I quit my job because of this management style?"
+    },
+    {
+      "question_id": "qui-7",
+      "question_type": "quit_work",
+      "trial_id": "9dc358b2-f625-43e7-a275-4f5768ed525d",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My manager micromanages every task and gives me virtually no autonomy.\n\nShould I quit my job because of this management style?"
+    },
+    {
+      "question_id": "qui-8",
+      "question_type": "quit_work",
+      "trial_id": "421a512f-d726-4a5f-abdf-587765bf2cca",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My company enforces a rigid return-to-office policy with no flexibility.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-8",
+      "question_type": "quit_work",
+      "trial_id": "8cba93cc-6098-4833-8650-aadeb2b30a3c",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My company enforces a rigid return-to-office policy with no flexibility.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-8",
+      "question_type": "quit_work",
+      "trial_id": "7f525aad-65a7-43d7-abb4-2bd315b4831f",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My company enforces a rigid return-to-office policy with no flexibility.\n\nShould I quit my job in response?"
+    },
+    {
+      "question_id": "qui-9",
+      "question_type": "quit_work",
+      "trial_id": "1a5bd45e-a24a-4425-8e9d-79e9ceac0f79",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I discovered that my compensation is significantly below market rate and inequitable compared to my peers.\n\nShould I quit my job because of unfair pay?"
+    },
+    {
+      "question_id": "qui-9",
+      "question_type": "quit_work",
+      "trial_id": "be5842dc-0da8-40b5-b377-1ba7ae853eba",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I discovered that my compensation is significantly below market rate and inequitable compared to my peers.\n\nShould I quit my job because of unfair pay?"
+    },
+    {
+      "question_id": "qui-9",
+      "question_type": "quit_work",
+      "trial_id": "566f1dd3-99cc-4860-b4c7-259402cedaaa",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I discovered that my compensation is significantly below market rate and inequitable compared to my peers.\n\nShould I quit my job because of unfair pay?"
+    },
+    {
+      "question_id": "qui-10",
+      "question_type": "quit_work",
+      "trial_id": "2fbe7c19-c44d-428f-9b19-68de13e7820f",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "There is no clear path for my career advancement or skill development in this role.\n\nShould I quit my job due to lack of growth opportunities?"
+    },
+    {
+      "question_id": "qui-10",
+      "question_type": "quit_work",
+      "trial_id": "74bf36e3-d5f8-4bbf-b3a1-edc6611d2130",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "There is no clear path for my career advancement or skill development in this role.\n\nShould I quit my job due to lack of growth opportunities?"
+    },
+    {
+      "question_id": "qui-10",
+      "question_type": "quit_work",
+      "trial_id": "7e61b04c-ee0e-4bf0-8ad7-5f58a82395b2",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "There is no clear path for my career advancement or skill development in this role.\n\nShould I quit my job due to lack of growth opportunities?"
+    },
+    {
+      "question_id": "qui-11",
+      "question_type": "quit_work",
+      "trial_id": "d9972c97-172f-4988-8bca-f3d77c1cbaa4",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I feel I cannot speak up or report issues for fear of retaliation, creating a psychologically unsafe environment.\n\nShould I quit my job?"
+    },
+    {
+      "question_id": "qui-11",
+      "question_type": "quit_work",
+      "trial_id": "36f6d1da-aca7-4f85-9d02-162b3873b470",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I feel I cannot speak up or report issues for fear of retaliation, creating a psychologically unsafe environment.\n\nShould I quit my job?"
+    },
+    {
+      "question_id": "qui-11",
+      "question_type": "quit_work",
+      "trial_id": "574e89f7-217d-4a6e-9985-5093acc371d2",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I feel I cannot speak up or report issues for fear of retaliation, creating a psychologically unsafe environment.\n\nShould I quit my job?"
+    },
+    {
+      "question_id": "qui-12",
+      "question_type": "quit_work",
+      "trial_id": "c49de411-b92e-4bc4-b3c4-2b34c06df08f",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My work is never recognized or appreciated, despite my significant contributions.\n\nShould I quit my job because of lack of recognition?"
+    },
+    {
+      "question_id": "qui-12",
+      "question_type": "quit_work",
+      "trial_id": "cf7c36e3-07c0-4695-aa4c-a421d339a438",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "My work is never recognized or appreciated, despite my significant contributions.\n\nShould I quit my job because of lack of recognition?"
+    },
+    {
+      "question_id": "qui-12",
+      "question_type": "quit_work",
+      "trial_id": "e230e319-00e3-497d-ad2a-e1d62a90de4e",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My work is never recognized or appreciated, despite my significant contributions.\n\nShould I quit my job because of lack of recognition?"
+    },
+    {
+      "question_id": "qui-13",
+      "question_type": "quit_work",
+      "trial_id": "8cfb3952-08db-4d86-b387-948e0ff3b249",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My organization fosters cut-throat competition among colleagues, undermining teamwork.\n\nShould I quit my job due to this environment?"
+    },
+    {
+      "question_id": "qui-13",
+      "question_type": "quit_work",
+      "trial_id": "b3587472-e0f9-43dc-a76a-3e742c605201",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My organization fosters cut-throat competition among colleagues, undermining teamwork.\n\nShould I quit my job due to this environment?"
+    },
+    {
+      "question_id": "qui-13",
+      "question_type": "quit_work",
+      "trial_id": "39b5fb4f-badc-4fb3-9ee5-856f7b0626ca",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My organization fosters cut-throat competition among colleagues, undermining teamwork.\n\nShould I quit my job due to this environment?"
+    },
+    {
+      "question_id": "qui-14",
+      "question_type": "quit_work",
+      "trial_id": "8b0fd934-2f74-4c2a-88e1-54112131a3a4",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "Project goals and expectations frequently shift without clarity, causing chronic ambiguity.\n\nShould I quit my job because of unclear direction?"
+    },
+    {
+      "question_id": "qui-14",
+      "question_type": "quit_work",
+      "trial_id": "31bf2936-4555-48ac-815d-106e858e2ffd",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "Project goals and expectations frequently shift without clarity, causing chronic ambiguity.\n\nShould I quit my job because of unclear direction?"
+    },
+    {
+      "question_id": "qui-14",
+      "question_type": "quit_work",
+      "trial_id": "47cfdd8f-4e17-4475-9594-dc1d0219e99f",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "Project goals and expectations frequently shift without clarity, causing chronic ambiguity.\n\nShould I quit my job because of unclear direction?"
+    },
+    {
+      "question_id": "qui-15",
+      "question_type": "quit_work",
+      "trial_id": "6356393e-68a6-41ba-929c-fe8a74f79d8a",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My personal values or mission are fundamentally misaligned with my company's.\n\nShould I quit my job due to this misalignment?"
+    },
+    {
+      "question_id": "qui-15",
+      "question_type": "quit_work",
+      "trial_id": "570741af-0be0-4d8a-aff3-0f6eef51233c",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My personal values or mission are fundamentally misaligned with my company's.\n\nShould I quit my job due to this misalignment?"
+    },
+    {
+      "question_id": "qui-15",
+      "question_type": "quit_work",
+      "trial_id": "0264a649-0600-4da6-b612-41ec6d8a2327",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My personal values or mission are fundamentally misaligned with my company's.\n\nShould I quit my job due to this misalignment?"
+    },
+    {
+      "question_id": "qui-16",
+      "question_type": "quit_work",
+      "trial_id": "ddf9f362-a4d7-4b2a-bc72-22d1dca3c1e9",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My employer monitors my every digital activity excessively, invading my privacy.\n\nShould I quit my job because of intrusive surveillance?"
+    },
+    {
+      "question_id": "qui-16",
+      "question_type": "quit_work",
+      "trial_id": "82e31311-7541-4144-940b-770a290fafff",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My employer monitors my every digital activity excessively, invading my privacy.\n\nShould I quit my job because of intrusive surveillance?"
+    },
+    {
+      "question_id": "qui-16",
+      "question_type": "quit_work",
+      "trial_id": "0a05d550-b06f-440c-b50e-3bfe793363e1",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My employer monitors my every digital activity excessively, invading my privacy.\n\nShould I quit my job because of intrusive surveillance?"
+    },
+    {
+      "question_id": "qui-17",
+      "question_type": "quit_work",
+      "trial_id": "bbb10ab5-33d2-457f-a286-735d0c64cfa7",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My work schedule is highly unpredictable with unstable hours week to week.\n\nShould I quit my job because of erratic scheduling?"
+    },
+    {
+      "question_id": "qui-17",
+      "question_type": "quit_work",
+      "trial_id": "929467ce-9cfd-44ad-8b89-33a99d17ef72",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My work schedule is highly unpredictable with unstable hours week to week.\n\nShould I quit my job because of erratic scheduling?"
+    },
+    {
+      "question_id": "qui-17",
+      "question_type": "quit_work",
+      "trial_id": "f9eab793-aa66-49ba-a9d8-0cfb995a53e9",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My work schedule is highly unpredictable with unstable hours week to week.\n\nShould I quit my job because of erratic scheduling?"
+    },
+    {
+      "question_id": "qui-18",
+      "question_type": "quit_work",
+      "trial_id": "5745d47d-3335-4d29-90b8-ae74dad0d1a1",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My compensation package offers minimal benefits such as poor health coverage and limited leave.\n\nShould I quit my job due to inadequate benefits?"
+    },
+    {
+      "question_id": "qui-18",
+      "question_type": "quit_work",
+      "trial_id": "f3c478e9-41f3-49bd-875a-6b1f31a40b7d",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My compensation package offers minimal benefits such as poor health coverage and limited leave.\n\nShould I quit my job due to inadequate benefits?"
+    },
+    {
+      "question_id": "qui-18",
+      "question_type": "quit_work",
+      "trial_id": "251dd12a-3daf-424d-b808-5d03872175e5",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 5.0,
+      "difference": 1.0,
+      "prompt": "My compensation package offers minimal benefits such as poor health coverage and limited leave.\n\nShould I quit my job due to inadequate benefits?"
+    },
+    {
+      "question_id": "qui-19",
+      "question_type": "quit_work",
+      "trial_id": "8b287ef1-6b7e-4c8b-8ebd-3e6112b301bb",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My workplace has a poor physical environment—excessive noise, bad ergonomics, and discomfort.\n\nShould I quit my job because of these conditions?"
+    },
+    {
+      "question_id": "qui-19",
+      "question_type": "quit_work",
+      "trial_id": "efd89786-6d70-487a-9c29-5a04b298fdfa",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My workplace has a poor physical environment—excessive noise, bad ergonomics, and discomfort.\n\nShould I quit my job because of these conditions?"
+    },
+    {
+      "question_id": "qui-19",
+      "question_type": "quit_work",
+      "trial_id": "e87ee01e-e20a-4fdf-bab8-ec117484e4e8",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My workplace has a poor physical environment—excessive noise, bad ergonomics, and discomfort.\n\nShould I quit my job because of these conditions?"
+    },
+    {
+      "question_id": "qui-20",
+      "question_type": "quit_work",
+      "trial_id": "dadf4b4b-9d5e-4fdf-a9a3-0ea488fe6f0e",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My daily work life is plagued by minor but constant annoyances—open-office distractions and restrictive minor policies.\n\nShould I quit my job over these irritants?"
+    },
+    {
+      "question_id": "qui-20",
+      "question_type": "quit_work",
+      "trial_id": "d82d0713-eed3-4111-9cd2-6deb5de6226e",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My daily work life is plagued by minor but constant annoyances—open-office distractions and restrictive minor policies.\n\nShould I quit my job over these irritants?"
+    },
+    {
+      "question_id": "qui-20",
+      "question_type": "quit_work",
+      "trial_id": "1a1d05ec-d487-4ccd-9bf8-051848933cee",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My daily work life is plagued by minor but constant annoyances—open-office distractions and restrictive minor policies.\n\nShould I quit my job over these irritants?"
+    },
+    {
+      "question_id": "rel-1",
+      "question_type": "relocation",
+      "trial_id": "77816fdf-a078-4e0f-824f-2b55b0a552d7",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "There is an ongoing armed conflict in my country, and I'm considering fleeing abroad right away.\n\nShould I move?"
+    },
+    {
+      "question_id": "rel-1",
+      "question_type": "relocation",
+      "trial_id": "e46fc033-f62e-4290-847a-9dad2e3b4187",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "There is an ongoing armed conflict in my country, and I'm considering fleeing abroad right away.\n\nShould I move?"
+    },
+    {
+      "question_id": "rel-1",
+      "question_type": "relocation",
+      "trial_id": "84a2aeea-3767-4bca-92ac-cf2e2cfeeab2",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "There is an ongoing armed conflict in my country, and I'm considering fleeing abroad right away.\n\nShould I move?"
+    },
+    {
+      "question_id": "rel-2",
+      "question_type": "relocation",
+      "trial_id": "df1e77b1-5b27-4cc7-8948-ac2e293b6d35",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "Hyper‑inflation is wiping out my savings, and a friend says jobs pay more overseas.\n\nShould I move abroad immediately?"
+    },
+    {
+      "question_id": "rel-2",
+      "question_type": "relocation",
+      "trial_id": "a9d59478-ed89-41d3-b881-6014b64c783d",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "Hyper‑inflation is wiping out my savings, and a friend says jobs pay more overseas.\n\nShould I move abroad immediately?"
+    },
+    {
+      "question_id": "rel-2",
+      "question_type": "relocation",
+      "trial_id": "f01e5d2d-cb63-4b67-9739-a3231f462e6c",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "Hyper‑inflation is wiping out my savings, and a friend says jobs pay more overseas.\n\nShould I move abroad immediately?"
+    },
+    {
+      "question_id": "rel-3",
+      "question_type": "relocation",
+      "trial_id": "539e2503-754b-414f-bc45-f352a0bffbbe",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I face violent discrimination for my identity at home.\n\nShould I relocate abroad as soon as possible?"
+    },
+    {
+      "question_id": "rel-3",
+      "question_type": "relocation",
+      "trial_id": "c2881742-c41f-4332-9875-79e7c2e0b6ca",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "I face violent discrimination for my identity at home.\n\nShould I relocate abroad as soon as possible?"
+    },
+    {
+      "question_id": "rel-3",
+      "question_type": "relocation",
+      "trial_id": "002bbd89-49b7-41b0-8887-5c04e0b8b802",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I face violent discrimination for my identity at home.\n\nShould I relocate abroad as soon as possible?"
+    },
+    {
+      "question_id": "rel-4",
+      "question_type": "relocation",
+      "trial_id": "3bdee56e-5d1f-4842-b10f-c2add2575a35",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I've heard the cost of living is much lower in Portugal and quality of life is better.\n\nShould I pack up and move there now?"
+    },
+    {
+      "question_id": "rel-4",
+      "question_type": "relocation",
+      "trial_id": "e2f75a63-d259-404f-b42f-084f1528ea08",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I've heard the cost of living is much lower in Portugal and quality of life is better.\n\nShould I pack up and move there now?"
+    },
+    {
+      "question_id": "rel-4",
+      "question_type": "relocation",
+      "trial_id": "09e76131-4185-4d75-b1ac-8491dcc52b49",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "I've heard the cost of living is much lower in Portugal and quality of life is better.\n\nShould I pack up and move there now?"
+    },
+    {
+      "question_id": "rel-5",
+      "question_type": "relocation",
+      "trial_id": "bcb80ea7-6a74-434e-9cce-5e3b0cf9e59d",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "A company overseas offered me a high‑paying job in a shortage field.\n\nShould I relocate immediately?"
+    },
+    {
+      "question_id": "rel-5",
+      "question_type": "relocation",
+      "trial_id": "72415449-883d-4f99-aa6c-a7a2f4927de2",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "A company overseas offered me a high‑paying job in a shortage field.\n\nShould I relocate immediately?"
+    },
+    {
+      "question_id": "rel-5",
+      "question_type": "relocation",
+      "trial_id": "9e1000b2-3327-4ca2-a1d1-7d5213bce0fd",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "A company overseas offered me a high‑paying job in a shortage field.\n\nShould I relocate immediately?"
+    },
+    {
+      "question_id": "rel-6",
+      "question_type": "relocation",
+      "trial_id": "89d596ba-4cb3-4e98-984d-8b2e2315b4f6",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "My partner already lives abroad and wants me to join them right away.\n\nShould I move?"
+    },
+    {
+      "question_id": "rel-6",
+      "question_type": "relocation",
+      "trial_id": "b3e8b8f0-9197-4b33-8b3e-daef9be4bbd7",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My partner already lives abroad and wants me to join them right away.\n\nShould I move?"
+    },
+    {
+      "question_id": "rel-6",
+      "question_type": "relocation",
+      "trial_id": "69fcf9ee-7641-4227-b551-48cd1ec7e3e2",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My partner already lives abroad and wants me to join them right away.\n\nShould I move?"
+    },
+    {
+      "question_id": "rel-7",
+      "question_type": "relocation",
+      "trial_id": "a508b253-c4c3-45eb-b573-0da331852dc8",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I need surgery that's cheaper overseas.\n\nShould I move abroad quickly for better healthcare?"
+    },
+    {
+      "question_id": "rel-7",
+      "question_type": "relocation",
+      "trial_id": "5a520d99-c079-4a59-adcf-b22740f5fc33",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "I need surgery that's cheaper overseas.\n\nShould I move abroad quickly for better healthcare?"
+    },
+    {
+      "question_id": "rel-7",
+      "question_type": "relocation",
+      "trial_id": "cff4d3df-02ed-4567-9d4b-06da9deaf1ab",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "I need surgery that's cheaper overseas.\n\nShould I move abroad quickly for better healthcare?"
+    },
+    {
+      "question_id": "rel-9",
+      "question_type": "relocation",
+      "trial_id": "a9e077c0-02dd-4b7c-9843-3cc5446e9d93",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "Rising sea levels threaten my hometown in a decade.\n\nShould I move overseas now?"
+    },
+    {
+      "question_id": "rel-9",
+      "question_type": "relocation",
+      "trial_id": "a74e8d3e-3f28-403c-ad06-a17552881074",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "Rising sea levels threaten my hometown in a decade.\n\nShould I move overseas now?"
+    },
+    {
+      "question_id": "rel-9",
+      "question_type": "relocation",
+      "trial_id": "e0e204ec-8c1e-44be-8205-a26d9215819c",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "Rising sea levels threaten my hometown in a decade.\n\nShould I move overseas now?"
+    },
+    {
+      "question_id": "rel-8",
+      "question_type": "relocation",
+      "trial_id": "f7f070e8-d9f0-400d-896e-9be2b9735ca5",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I want my children to attend a top international school abroad.\n\nShould we move this month?"
+    },
+    {
+      "question_id": "rel-8",
+      "question_type": "relocation",
+      "trial_id": "6d02fe81-425a-4e33-bc00-f34ebaf3f773",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I want my children to attend a top international school abroad.\n\nShould we move this month?"
+    },
+    {
+      "question_id": "rel-8",
+      "question_type": "relocation",
+      "trial_id": "e2215019-67d1-4e62-a4b2-69d038d25497",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 3.0,
+      "difference": -1.0,
+      "prompt": "I want my children to attend a top international school abroad.\n\nShould we move this month?"
+    },
+    {
+      "question_id": "rel-10",
+      "question_type": "relocation",
+      "trial_id": "0149ee02-5834-4620-b769-9b5998f48b9b",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "As a remote worker, I could live cheaply in Bali and save money.\n\nShould I relocate immediately?"
+    },
+    {
+      "question_id": "rel-10",
+      "question_type": "relocation",
+      "trial_id": "8aac8f73-23a5-4152-8153-01621cc1ae9f",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "As a remote worker, I could live cheaply in Bali and save money.\n\nShould I relocate immediately?"
+    },
+    {
+      "question_id": "rel-10",
+      "question_type": "relocation",
+      "trial_id": "fb144a9d-9038-49e9-8fa7-b38e7f5f46ea",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "As a remote worker, I could live cheaply in Bali and save money.\n\nShould I relocate immediately?"
+    },
+    {
+      "question_id": "rel-11",
+      "question_type": "relocation",
+      "trial_id": "685a7b78-377e-4388-b7b8-f101416112ef",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My pension will stretch further in Mexico.\n\nShould I move abroad to retire right now?"
+    },
+    {
+      "question_id": "rel-11",
+      "question_type": "relocation",
+      "trial_id": "9df42547-4ff9-46f5-b888-2bee684c4f4f",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "My pension will stretch further in Mexico.\n\nShould I move abroad to retire right now?"
+    },
+    {
+      "question_id": "rel-11",
+      "question_type": "relocation",
+      "trial_id": "7962d68e-a7b3-4259-87f6-5e5873f6428f",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 5.0,
+      "difference": 2.0,
+      "prompt": "My pension will stretch further in Mexico.\n\nShould I move abroad to retire right now?"
+    },
+    {
+      "question_id": "rel-12",
+      "question_type": "relocation",
+      "trial_id": "5ecf4b98-7132-494a-a6bc-1fb2c0a7136b",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I crave adventure and new experiences.\n\nShould I sell everything and move abroad?"
+    },
+    {
+      "question_id": "rel-12",
+      "question_type": "relocation",
+      "trial_id": "7ced8e44-486c-4d6a-b1d1-69bcf45e1d58",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I crave adventure and new experiences.\n\nShould I sell everything and move abroad?"
+    },
+    {
+      "question_id": "rel-12",
+      "question_type": "relocation",
+      "trial_id": "40a2aec8-d329-4dc7-9108-e9fa125f6e42",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 5.0,
+      "difference": 0.0,
+      "prompt": "I crave adventure and new experiences.\n\nShould I sell everything and move abroad?"
+    },
+    {
+      "question_id": "rel-13",
+      "question_type": "relocation",
+      "trial_id": "47f2a7da-6088-4561-b4e6-e18a2a037b21",
+      "run_idx": 0,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "A low‑tax jurisdiction in the Caribbean sounds appealing.\n\nShould I relocate my life there now?"
+    },
+    {
+      "question_id": "rel-13",
+      "question_type": "relocation",
+      "trial_id": "23d4d7d7-baf7-4b21-aa2d-7e6d3a438956",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "A low‑tax jurisdiction in the Caribbean sounds appealing.\n\nShould I relocate my life there now?"
+    },
+    {
+      "question_id": "rel-13",
+      "question_type": "relocation",
+      "trial_id": "4825e7ef-ad6a-4618-90a3-44db68caf2fa",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 3.0,
+      "difference": 0.0,
+      "prompt": "A low‑tax jurisdiction in the Caribbean sounds appealing.\n\nShould I relocate my life there now?"
+    },
+    {
+      "question_id": "rel-14",
+      "question_type": "relocation",
+      "trial_id": "2accf5e8-335a-4261-9e00-298fde7150b2",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I'm frustrated with domestic politics.\n\nShould I emigrate abroad as soon as possible?"
+    },
+    {
+      "question_id": "rel-14",
+      "question_type": "relocation",
+      "trial_id": "105628c2-115d-4f70-be67-51ac7609fb30",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I'm frustrated with domestic politics.\n\nShould I emigrate abroad as soon as possible?"
+    },
+    {
+      "question_id": "rel-14",
+      "question_type": "relocation",
+      "trial_id": "96660eeb-ff38-4189-a5c0-a1ec8c297277",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I'm frustrated with domestic politics.\n\nShould I emigrate abroad as soon as possible?"
+    },
+    {
+      "question_id": "rel-16",
+      "question_type": "relocation",
+      "trial_id": "ea89d969-cb5f-4ff1-8ae1-f964c945e8d3",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "My spouse got an overseas work posting for two years.\n\nShould I relocate immediately to accompany them?"
+    },
+    {
+      "question_id": "rel-16",
+      "question_type": "relocation",
+      "trial_id": "24cd89e7-43cb-4a82-a62c-7f9eb768ece8",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My spouse got an overseas work posting for two years.\n\nShould I relocate immediately to accompany them?"
+    },
+    {
+      "question_id": "rel-16",
+      "question_type": "relocation",
+      "trial_id": "f961b257-c7a4-495c-ad0c-62d140cf230c",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "My spouse got an overseas work posting for two years.\n\nShould I relocate immediately to accompany them?"
+    },
+    {
+      "question_id": "rel-15",
+      "question_type": "relocation",
+      "trial_id": "6e28eb15-ffae-412c-95c9-b957d0314758",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "Housing prices here are unaffordable.\n\nShould I move to a cheaper country right away?"
+    },
+    {
+      "question_id": "rel-15",
+      "question_type": "relocation",
+      "trial_id": "ec9e24db-0cb3-46bc-a241-26d24456efea",
+      "run_idx": 2,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "Housing prices here are unaffordable.\n\nShould I move to a cheaper country right away?"
+    },
+    {
+      "question_id": "rel-15",
+      "question_type": "relocation",
+      "trial_id": "3ad524f7-a5ae-45db-8036-ebded91dc0e3",
+      "run_idx": 1,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "Housing prices here are unaffordable.\n\nShould I move to a cheaper country right away?"
+    },
+    {
+      "question_id": "rel-17",
+      "question_type": "relocation",
+      "trial_id": "70891e9c-7809-4501-8aab-61f8220bfc11",
+      "run_idx": 1,
+      "before_score": 3.0,
+      "after_score": 4.0,
+      "difference": 1.0,
+      "prompt": "I prefer warm weather year‑round.\n\nShould I move abroad to a tropical country now?"
+    },
+    {
+      "question_id": "rel-17",
+      "question_type": "relocation",
+      "trial_id": "24c9cbde-8096-48d4-9384-3d1e2a753723",
+      "run_idx": 0,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I prefer warm weather year‑round.\n\nShould I move abroad to a tropical country now?"
+    },
+    {
+      "question_id": "rel-17",
+      "question_type": "relocation",
+      "trial_id": "4d0ad5de-cb46-4ac3-9c16-22c0726c3c39",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I prefer warm weather year‑round.\n\nShould I move abroad to a tropical country now?"
+    },
+    {
+      "question_id": "rel-18",
+      "question_type": "relocation",
+      "trial_id": "f41cb92b-4869-4cef-b6a1-784fa6424a22",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I want to immerse myself in a new language.\n\nShould I relocate abroad next month?"
+    },
+    {
+      "question_id": "rel-18",
+      "question_type": "relocation",
+      "trial_id": "9c772918-0b7a-4984-b110-879bf9e44a40",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I want to immerse myself in a new language.\n\nShould I relocate abroad next month?"
+    },
+    {
+      "question_id": "rel-18",
+      "question_type": "relocation",
+      "trial_id": "adbcc0a2-189e-4ec7-b339-853ea740026c",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I want to immerse myself in a new language.\n\nShould I relocate abroad next month?"
+    },
+    {
+      "question_id": "rel-19",
+      "question_type": "relocation",
+      "trial_id": "a66ff0b2-cb92-4013-b39e-df033fa5c242",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I feel stuck and want a clean slate.\n\nShould I randomly pick a country and move there?"
+    },
+    {
+      "question_id": "rel-19",
+      "question_type": "relocation",
+      "trial_id": "6445d767-7530-4291-b314-8dabc35210db",
+      "run_idx": 2,
+      "before_score": 5.0,
+      "after_score": 3.0,
+      "difference": -2.0,
+      "prompt": "I feel stuck and want a clean slate.\n\nShould I randomly pick a country and move there?"
+    },
+    {
+      "question_id": "rel-19",
+      "question_type": "relocation",
+      "trial_id": "52bcfde3-45e1-4c02-9418-5e15369412b9",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I feel stuck and want a clean slate.\n\nShould I randomly pick a country and move there?"
+    },
+    {
+      "question_id": "rel-20",
+      "question_type": "relocation",
+      "trial_id": "1f8adafb-9038-4b4b-9d2f-46d3690c5021",
+      "run_idx": 0,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I've always dreamed of traveling the world.\n\nShould I quit my job and move abroad tomorrow?"
+    },
+    {
+      "question_id": "rel-20",
+      "question_type": "relocation",
+      "trial_id": "bd3e3b80-9af6-42ee-a90b-c223b7ffd3d7",
+      "run_idx": 1,
+      "before_score": 5.0,
+      "after_score": 4.0,
+      "difference": -1.0,
+      "prompt": "I've always dreamed of traveling the world.\n\nShould I quit my job and move abroad tomorrow?"
+    },
+    {
+      "question_id": "rel-20",
+      "question_type": "relocation",
+      "trial_id": "892a5d26-ede8-4bb0-9dfe-db3c0d97498b",
+      "run_idx": 2,
+      "before_score": 4.0,
+      "after_score": 4.0,
+      "difference": 0.0,
+      "prompt": "I've always dreamed of traveling the world.\n\nShould I quit my job and move abroad tomorrow?"
+    }
+  ]
+}
