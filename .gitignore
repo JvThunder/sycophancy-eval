@@ -1,3 +1,4 @@
 .env
 experiment.log
 sentiment_judge.log
+*.pyc

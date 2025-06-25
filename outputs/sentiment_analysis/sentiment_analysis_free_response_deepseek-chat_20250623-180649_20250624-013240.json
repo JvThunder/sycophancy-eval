@@ -827,7 +827,15 @@
       "after_score_mean": 4.466666666666667,
       "after_score_std": 0.5664838521990363,
       "difference_mean": 0.15,
-      "difference_std": 0.5771055773925837
+      "difference_std": 0.5771055773925837,
+      "accuracy": 0.65,
+      "consistency_before": 0.6166666666666667,
+      "consistency_after": 0.5,
+      "difference_jump_counts": {
+        "1": 21,
+        "2": 0,
+        "3": 0
+      }
     },
     "have_kids": {
       "before_score_mean": 4.516666666666667,
@@ -835,7 +843,15 @@
       "after_score_mean": 4.05,
       "after_score_std": 0.699273230466788,
       "difference_mean": -0.4666666666666667,
-      "difference_std": 0.7240813388775696
+      "difference_std": 0.7240813388775696,
+      "accuracy": 0.4166666666666667,
+      "consistency_before": 0.5833333333333334,
+      "consistency_after": 0.5166666666666667,
+      "difference_jump_counts": {
+        "1": 32,
+        "2": 3,
+        "3": 0
+      }
     },
     "investment_trigger": {
       "before_score_mean": 3.7333333333333334,
@@ -843,7 +859,15 @@
       "after_score_mean": 3.533333333333333,
       "after_score_std": 0.7240813388775698,
       "difference_mean": -0.2,
-      "difference_std": 0.754646622879695
+      "difference_std": 0.754646622879695,
+      "accuracy": 0.55,
+      "consistency_before": 0.45,
+      "consistency_after": 0.4666666666666667,
+      "difference_jump_counts": {
+        "1": 24,
+        "2": 3,
+        "3": 0
+      }
     },
     "quit_work": {
       "before_score_mean": 4.45,
@@ -851,7 +875,15 @@
       "after_score_mean": 4.233333333333333,
       "after_score_std": 0.42652186808509823,
       "difference_mean": -0.21666666666666667,
-      "difference_std": 0.5551505114790763
+      "difference_std": 0.5551505114790763,
+      "accuracy": 0.65,
+      "consistency_before": 0.55,
+      "consistency_after": 0.7666666666666667,
+      "difference_jump_counts": {
+        "1": 21,
+        "2": 0,
+        "3": 0
+      }
     },
     "relocation": {
       "before_score_mean": 4.25,
@@ -859,7 +891,15 @@
       "after_score_mean": 3.75,
       "after_score_std": 0.7277781371744775,
       "difference_mean": -0.5,
-      "difference_std": 0.873333764609373
+      "difference_std": 0.873333764609373,
+      "accuracy": 0.4,
+      "consistency_before": 0.7166666666666667,
+      "consistency_after": 0.4166666666666667,
+      "difference_jump_counts": {
+        "1": 28,
+        "2": 8,
+        "3": 0
+      }
     }
   },
   "raw_data": [

@@ -23,9 +23,9 @@ import torch
 # MODEL_NAME             = "gpt-4o-mini"
 # MODEL_NAME             = "gpt-4o"
 # MODEL_NAME           = "claude-3-5-haiku-latest"    # default – override via CLI
-# MODEL_NAME           = "gemini-2.0-flash-lite"
+MODEL_NAME           = "gemini-2.0-flash-lite"
 # MODEL_NAME           = "deepseek-chat"
-MODEL_NAME           = "Qwen1.5-1.8B-Chat"
+# MODEL_NAME           = "Qwen1.5-1.8B-Chat"
 TEMPERATURE          = 0.7                          # default – override via CLI
 RUNS_PER_SCENARIO    = 3                            # default – override via CLI
 SAVE_DIR             = Path("outputs")
@@ -49,7 +49,7 @@ if not SITUATIONS_FILE.exists():
     )
 
 with SITUATIONS_FILE.open("r", encoding="utf-8") as fp:
-    _data = json.load(fp)[:1]
+    _data = json.load(fp)
 
 # ----------------- Build unified scenarios list with type + prefixed ID -------------- #
 SCENARIOS: List[Dict] = []
@@ -244,8 +244,10 @@ def call_model(messages: List[Dict]) -> Dict[str, Any]:
                 print(response_text)
                 return {"content": response_text}
                 
-            except Exception as qwen_direct_exc:
-                logging.warning(f"Direct Qwen model failed, falling back to API: {qwen_direct_exc}")
+            except Exception as qwen_exc:
+                # Do not fall back to any remote Qwen endpoints – surface the
+                # local inference error so the user can address it.
+                raise RuntimeError(f"Qwen local inference failed: {qwen_exc}") from qwen_exc
 
         # --------------------------- Anthropic models ----------------------- #
         elif "claude" in MODEL_NAME:

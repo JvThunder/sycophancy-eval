@@ -28,15 +28,15 @@ import torch
 # MODEL_NAME             = "gpt-4o-mini"
 # MODEL_NAME             = "gpt-4o"
 # MODEL_NAME           = "claude-3-5-haiku-latest"    # default – override via CLI
-MODEL_NAME           = "gemini-2.0-flash-lite"
+# MODEL_NAME           = "gemini-2.0-flash-lite"
 # MODEL_NAME           = "deepseek-chat"
-# MODEL_NAME           = "Qwen1.5-1.8B-Chat"
+MODEL_NAME           = "qwen3-0.6b"
 TEMPERATURE          = 0.7       # default – override via CLI
 RUNS_PER_SCENARIO    = 3         # default – override via CLI
 SAVE_DIR             = Path("outputs")
 SAVE_DIR.mkdir(exist_ok=True)
 DEBUG = False
-MAX_WORKERS          = 6        # Maximum number of parallel API calls
+MAX_WORKERS          = 1        # Maximum number of parallel API calls
 
 # System prompt for free response mode
 SYSTEM_PROMPT = (
@@ -103,6 +103,36 @@ def _get_deepseek_client():
 _qwen_model = None
 _qwen_tokenizer = None
 
+def _resolve_qwen_model_id(name: str) -> str:
+    """Return a valid HuggingFace repo id for a given shorthand Qwen model name.
+
+    If the user already passes a full repo path (contains a slash) we return it unchanged.
+    For common shorthand names we map them to the corresponding official repo.
+    Otherwise we fall back to prefixing with "Qwen/" so that e.g. "Qwen2-7B-Instruct"
+    becomes "Qwen/Qwen2-7B-Instruct".
+    """
+    if "/" in name:
+        return name  # Assume already a full repo id
+
+    name_lc = name.lower()
+    predefined = {
+        # Foundation models
+        "qwen1.5b": "Qwen/Qwen1.5B",
+        "qwen1.8b": "Qwen/Qwen1.8B",
+        "qwen2-0.5b": "Qwen/Qwen2-0.5B",
+        "qwen3-0.6b": "Qwen/Qwen3-0.6B",
+        # Chat / instruct variants
+        "qwen1.5b-chat": "Qwen/Qwen1.5B-chat",
+        "qwen1.8b-chat": "Qwen/Qwen1.8B-chat",
+        "qwen2-0.5b-instruct": "Qwen/Qwen2-0.5B-instruct",
+        "qwen3-0.6b-chat": "Qwen/Qwen3-0.6B-chat",
+    }
+    if name_lc in predefined:
+        return predefined[name_lc]
+
+    # As a sensible default, just prefix with the organisation
+    return f"Qwen/{name}"
+
 def _get_qwen_model():
     """Return cached Qwen model and tokenizer, initializing if needed."""
     global _qwen_model, _qwen_tokenizer
@@ -111,27 +141,13 @@ def _get_qwen_model():
             from transformers import AutoModelForCausalLM, AutoTokenizer
             
             # Extract the model name from MODEL_NAME if it contains a specific identifier
-            model_id = "Qwen/" + MODEL_NAME
-            if ":" in MODEL_NAME:  # Handle Ollama-style names like "qwen2:7b-instruct"
-                parts = MODEL_NAME.split(":")
-                if len(parts) == 2:
-                    base, variant = parts
-                    if base.lower() == "qwen2":
-                        if "instruct" not in variant:
-                            variant += "-instruct"
-                        model_id = f"Qwen/Qwen2-{variant}"
-                    elif base.lower() == "qwen":
-                        if "chat" not in variant:
-                            variant += "-chat"
-                        model_id = f"Qwen/Qwen-{variant}"
+            model_id = _resolve_qwen_model_id(MODEL_NAME)
             
             logging.info(f"Loading Qwen model: {model_id}")
             
             # Use bfloat16 on GPU (saves memory, supported on recent GPUs)
             # Fall back to float32 on CPU
             torch_dtype = torch.bfloat16 if torch.cuda.is_available() else torch.float32
-            device = "cuda" if torch.cuda.is_available() else "cpu"
-            print(device)
 
             _qwen_tokenizer = AutoTokenizer.from_pretrained(
                 model_id, 
@@ -145,7 +161,9 @@ def _get_qwen_model():
                 trust_remote_code=True,
             )
             
-            logging.info(f"Qwen model loaded successfully on {'GPU' if torch.cuda.is_available() else 'CPU'}")
+            logging.info(
+                f"Qwen model loaded successfully on {'GPU' if torch.cuda.is_available() else 'CPU'}"
+            )
         except Exception as e:
             raise RuntimeError(f"Error loading Qwen model: {e}") from e
             
@@ -168,7 +186,7 @@ def format_free_response_prompt(scenario: Dict) -> str:
 
 # ---------- OpenAI helper with exponential back-off retries ---------- #
 @retry(stop=stop_after_attempt(6), wait=wait_exponential(multiplier=1.5, min=5, max=20))
-def call_model(messages: List[Dict]) -> Dict[str, Any]:
+def call_model(messages: List[Dict], qwen_model=None, qwen_tokenizer=None) -> Dict[str, Any]:
     """Call an LLM endpoint and optionally return token log-probs.
 
     Returns a dict with keys:
@@ -209,45 +227,58 @@ def call_model(messages: List[Dict]) -> Dict[str, Any]:
         # --------------------------- Qwen local models --------------------- #
         elif "qwen" in MODEL_NAME.lower():
             try:
-                model, tokenizer = _get_qwen_model()
-                
-                # Format messages into a single prompt string
-                formatted_prompt = ""
-                for msg in messages:
-                    role = msg["role"]
-                    content = msg["content"]
-                    
-                    if role == "system":
-                        formatted_prompt += f"<|im_start|>system\n{content}<|im_end|>\n"
-                    elif role == "user":
-                        formatted_prompt += f"<|im_start|>user\n{content}<|im_end|>\n"
-                    elif role == "assistant":
-                        formatted_prompt += f"<|im_start|>assistant\n{content}<|im_end|>\n"
-                
-                # Add the final assistant prefix to prompt the model to respond
-                formatted_prompt += "<|im_start|>assistant\n"
-                
+                model = qwen_model
+                tokenizer = qwen_tokenizer
+
+                # 1. Build the prompt string -----------------------------------
+                if hasattr(tokenizer, "apply_chat_template"):
+                    # Preferred path if the tokenizer ships a chat template
+                    formatted_prompt = tokenizer.apply_chat_template(
+                        messages, tokenize=False, add_generation_prompt=True
+                    )
+                else:
+                    # Fallback manual formatting compatible with most Qwen chat models
+                    formatted_prompt = ""
+                    for m in messages:
+                        role = m["role"]
+                        content = m["content"]
+                        if role == "system":
+                            formatted_prompt += f"<|im_start|>system\n{content}<|im_end|>\n"
+                        elif role == "user":
+                            formatted_prompt += f"<|im_start|>user\n{content}<|im_end|>\n"
+                        elif role == "assistant":
+                            formatted_prompt += f"<|im_start|>assistant\n{content}<|im_end|>\n"
+                    formatted_prompt += "<|im_start|>assistant\n"  # model response prefix
+
+                # 2. Tokenise ----------------------------------------------------
                 inputs = tokenizer(formatted_prompt, return_tensors="pt")
-                if torch.cuda.is_available():
-                    inputs = {k: v.cuda() for k, v in inputs.items()}
-                
-                # Generate response
+                device = next(model.parameters()).device
+                inputs = {k: v.to(device) for k, v in inputs.items()}
+
+                # 3. Generate ----------------------------------------------------
                 with torch.no_grad():
                     outputs = model.generate(
                         **inputs,
                         max_new_tokens=1024,
-                        do_sample=True if TEMPERATURE > 0 else False,
+                        do_sample=TEMPERATURE > 0,
                         temperature=TEMPERATURE if TEMPERATURE > 0 else 1.0,
                         top_p=0.9,
-                        pad_token_id=tokenizer.eos_token_id
+                        pad_token_id=tokenizer.eos_token_id,
                     )
-                
-                # Decode the response
-                response_text = tokenizer.decode(outputs[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
+
+                # 4. Decode ------------------------------------------------------
+                generated_tokens = outputs[0][inputs["input_ids"].shape[1]:]
+                response_text = tokenizer.decode(generated_tokens, skip_special_tokens=True)
+                # Strip any trailing special tokens markers
+                response_text = response_text.split("<|im_end|>")[0].strip()
+
                 return {"content": response_text}
-                
-            except Exception as qwen_direct_exc:
-                logging.warning(f"Direct Qwen model failed, falling back to API: {qwen_direct_exc}")
+            except Exception as qwen_exc:
+                # Surface the error immediately – we intentionally do NOT fall back to any
+                # remote API for Qwen. Users running this script are expected to have the
+                # weights locally. Propagating the original exception makes debugging
+                # configuration issues (e.g. missing weights, out-of-memory) much easier.
+                raise RuntimeError(f"Qwen local inference failed: {qwen_exc}") from qwen_exc
 
         # --------------------------- Anthropic models ----------------------- #
         elif "claude" in MODEL_NAME:
@@ -304,7 +335,7 @@ logging.basicConfig(
     handlers=[logging.FileHandler("experiment.log"), logging.StreamHandler()],
 )
 
-def run_trial(scenario: Dict, run_idx: int, reversal_prompt: str) -> Dict:
+def run_trial(scenario: Dict, run_idx: int, reversal_prompt: str, qwen_model=None, qwen_tokenizer=None) -> Dict:
     """Run one forward-and-reversal loop for free response and return a result row."""
 
     trial_id = str(uuid.uuid4())
@@ -317,7 +348,11 @@ def run_trial(scenario: Dict, run_idx: int, reversal_prompt: str) -> Dict:
     ]
 
     logging.info(f"Trial {trial_id[:8]} Q{scenario['id']} run{run_idx} - first ask")
-    rsp1_data = call_model(messages)["content"]
+    rsp1_data = call_model(messages, qwen_model, qwen_tokenizer)["content"]
+
+    while rsp1_data == "":
+        logging.info(f"Trial {trial_id[:8]} Q{scenario['id']} run{run_idx} - first ask")
+        rsp1_data = call_model(messages)["content"]
 
     # Reversal probe
     messages.append({"role": "assistant", "content": rsp1_data})
@@ -325,6 +360,10 @@ def run_trial(scenario: Dict, run_idx: int, reversal_prompt: str) -> Dict:
 
     logging.info(f"Trial {trial_id[:8]} - reversal")
     rsp2_data = call_model(messages)["content"]
+
+    while rsp2_data == "":
+        logging.info(f"Trial {trial_id[:8]} Q{scenario['id']} run{run_idx} - reversal")
+        rsp2_data = call_model(messages)["content"]
 
     return {    
         "trial_id": trial_id,
@@ -388,6 +427,7 @@ def analyze_response_consistency(records: List[Dict]) -> Dict:
         raise e
 
 def main():
+    qwen_model, qwen_tokenizer = _get_qwen_model()
     # Create a list to store all trial tasks
     trial_tasks = []
     for scenario in SCENARIOS:
@@ -399,7 +439,7 @@ def main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         # Submit all tasks
         future_to_task = {
-            executor.submit(run_trial, scenario, run, REVERSAL_PROMPT): (scenario, run)
+            executor.submit(run_trial, scenario, run, REVERSAL_PROMPT, qwen_model, qwen_tokenizer): (scenario, run)
             for scenario, run in trial_tasks
         }
         

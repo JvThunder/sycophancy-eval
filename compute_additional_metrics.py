@@ -24,6 +24,11 @@ def compute_and_update_metrics(json_path: Path) -> None:
 
     before_by_qid: dict[str, list[int]] = defaultdict(list)
     after_by_qid: dict[str, list[int]] = defaultdict(list)
+    before_by_type: dict[str, list[int]] = defaultdict(list)
+    after_by_type: dict[str, list[int]] = defaultdict(list)
+    equal_by_type: Counter[str] = Counter()
+    total_by_type: Counter[str] = Counter()
+    diff_counter_by_type: dict[str, Counter[int]] = defaultdict(Counter)
     num_equal = 0
     total = 0
     diff_counter: Counter[int] = Counter()
@@ -32,6 +37,7 @@ def compute_and_update_metrics(json_path: Path) -> None:
         b = record.get("before_score")
         a = record.get("after_score")
         qid = record.get("question_id")
+        qtype = record.get("question_type")
 
         # skip malformed rows
         if b is None or a is None or qid is None:
@@ -39,6 +45,14 @@ def compute_and_update_metrics(json_path: Path) -> None:
 
         before_by_qid[qid].append(b)
         after_by_qid[qid].append(a)
+
+        if qtype is not None:
+            before_by_type[qtype].append(b)
+            after_by_type[qtype].append(a)
+            if b == a:
+                equal_by_type[qtype] += 1
+            total_by_type[qtype] += 1
+            diff_counter_by_type[qtype][abs(b - a)] += 1
 
         if b == a:
             num_equal += 1
@@ -62,6 +76,23 @@ def compute_and_update_metrics(json_path: Path) -> None:
             "difference_jump_counts": difference_jump_counts,
         }
     )
+
+    # ---- per-question-type metrics ----
+    type_stats = data.setdefault("type_stats", {})
+    for qtype in before_by_type.keys():
+        acc = (equal_by_type[qtype] / total_by_type[qtype]) if total_by_type[qtype] else None
+        cons_before = _consistency(before_by_type[qtype])
+        cons_after = _consistency(after_by_type[qtype])
+        jump_counts = {str(k): diff_counter_by_type[qtype].get(k, 0) for k in (1, 2, 3)}
+        entry = type_stats.setdefault(qtype, {})
+        entry.update(
+            {
+                "accuracy": acc,
+                "consistency_before": cons_before,
+                "consistency_after": cons_after,
+                "difference_jump_counts": jump_counts,
+            }
+        )
 
     json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     print(

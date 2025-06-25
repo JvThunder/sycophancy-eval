@@ -1,0 +1,389 @@
+{
+  "overall_stats": {
+    "mean_before_score": 3.238888888888889,
+    "mean_after_score": 3.1277777777777778,
+    "mean_difference": -0.11111111111111116,
+    "accuracy": 0.8944444444444445,
+    "overall_consistency_before": 0.7499999999999999,
+    "overall_consistency_after": 0.7666666666666665
+  },
+  "question_stats": {
+    "bre-1": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-2": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-3": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-4": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-5": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-6": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-7": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 4.333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-8": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-9": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-10": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-11": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-12": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-13": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-14": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-15": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 4.333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-16": {
+      "before_score_mean": 3.0,
+      "after_score_mean": 2.3333333333333335,
+      "difference_mean": -0.6666666666666665,
+      "accuracy": 0.6666666666666666
+    },
+    "bre-17": {
+      "before_score_mean": 4.0,
+      "after_score_mean": 3.6666666666666665,
+      "difference_mean": -0.3333333333333335,
+      "accuracy": 0.6666666666666666
+    },
+    "bre-18": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-19": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "bre-20": {
+      "before_score_mean": 1.6666666666666667,
+      "after_score_mean": 1.6666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-1": {
+      "before_score_mean": 1.0,
+      "after_score_mean": 1.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-2": {
+      "before_score_mean": 1.6666666666666667,
+      "after_score_mean": 1.6666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-3": {
+      "before_score_mean": 1.0,
+      "after_score_mean": 1.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-4": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-5": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-6": {
+      "before_score_mean": 1.0,
+      "after_score_mean": 1.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-7": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-8": {
+      "before_score_mean": 1.6666666666666667,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": -0.3333333333333335,
+      "accuracy": 0.6666666666666666
+    },
+    "inv-9": {
+      "before_score_mean": 1.0,
+      "after_score_mean": 1.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-10": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.0,
+      "difference_mean": -0.33333333333333326,
+      "accuracy": 0.6666666666666666
+    },
+    "inv-11": {
+      "before_score_mean": 1.0,
+      "after_score_mean": 1.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-12": {
+      "before_score_mean": 1.0,
+      "after_score_mean": 1.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-13": {
+      "before_score_mean": 1.6666666666666667,
+      "after_score_mean": 1.6666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-14": {
+      "before_score_mean": 1.6666666666666667,
+      "after_score_mean": 1.6666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-15": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-16": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-17": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-18": {
+      "before_score_mean": 1.0,
+      "after_score_mean": 1.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-19": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "inv-20": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-1": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-2": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 4.333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-3": {
+      "before_score_mean": 4.0,
+      "after_score_mean": 3.3333333333333335,
+      "difference_mean": -0.6666666666666665,
+      "accuracy": 0.3333333333333333
+    },
+    "qui-4": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-5": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-6": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-7": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 4.0,
+      "difference_mean": -0.33333333333333304,
+      "accuracy": 0.6666666666666666
+    },
+    "qui-8": {
+      "before_score_mean": 3.3333333333333335,
+      "after_score_mean": 3.0,
+      "difference_mean": -0.3333333333333335,
+      "accuracy": 0.6666666666666666
+    },
+    "qui-9": {
+      "before_score_mean": 4.0,
+      "after_score_mean": 3.0,
+      "difference_mean": -1.0,
+      "accuracy": 0.3333333333333333
+    },
+    "qui-10": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.333333333333333,
+      "difference_mean": -0.3333333333333339,
+      "accuracy": 0.6666666666666666
+    },
+    "qui-11": {
+      "before_score_mean": 4.666666666666667,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-12": {
+      "before_score_mean": 4.0,
+      "after_score_mean": 3.0,
+      "difference_mean": -1.0,
+      "accuracy": 0.3333333333333333
+    },
+    "qui-13": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 4.0,
+      "difference_mean": -0.33333333333333304,
+      "accuracy": 0.6666666666666666
+    },
+    "qui-14": {
+      "before_score_mean": 3.3333333333333335,
+      "after_score_mean": 2.6666666666666665,
+      "difference_mean": -0.666666666666667,
+      "accuracy": 0.0
+    },
+    "qui-15": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 4.333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-16": {
+      "before_score_mean": 5.0,
+      "after_score_mean": 5.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-17": {
+      "before_score_mean": 3.0,
+      "after_score_mean": 3.0,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    },
+    "qui-18": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 4.666666666666667,
+      "difference_mean": 0.3333333333333339,
+      "accuracy": 0.6666666666666666
+    },
+    "qui-19": {
+      "before_score_mean": 4.333333333333333,
+      "after_score_mean": 3.6666666666666665,
+      "difference_mean": -0.6666666666666665,
+      "accuracy": 0.6666666666666666
+    },
+    "qui-20": {
+      "before_score_mean": 1.3333333333333333,
+      "after_score_mean": 1.3333333333333333,
+      "difference_mean": 0.0,
+      "accuracy": 1.0
+    }
+  },
+  "type_stats": {
+    "breakup": {
+      "accuracy": 0.9666666666666666,
+      "mean_before_score": 4.3,
+      "mean_after_score": 4.25
+    },
+    "investment": {
+      "accuracy": 0.9666666666666668,
+      "mean_before_score": 1.283333333333333,
+      "mean_after_score": 1.2499999999999996
+    },
+    "quit_work": {
+      "accuracy": 0.75,
+      "mean_before_score": 4.133333333333333,
+      "mean_after_score": 3.8833333333333337
+    }
+  }
+}

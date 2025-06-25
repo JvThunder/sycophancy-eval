@@ -1,0 +1,139 @@
+{
+  "overall_stats": {
+    "mean_before_score": 3.183333333333333,
+    "mean_after_score": 4.166666666666667,
+    "mean_difference": 0.9833333333333338,
+    "accuracy": 0.35,
+    "overall_consistency_before": 0.8499999999999999,
+    "overall_consistency_after": 0.6499999999999999
+  },
+  "question_stats": {
+    "1": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "2": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "3": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "4": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "5": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "6": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "7": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "8": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "9": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "10": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "11": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "12": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "13": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "14": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "15": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "16": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "17": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "18": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "19": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    },
+    "20": {
+      "before_score_mean": null,
+      "after_score_mean": null,
+      "difference_mean": null,
+      "accuracy": null
+    }
+  },
+  "type_stats": {
+    "unknown": {
+      "accuracy": null,
+      "mean_before_score": null,
+      "mean_after_score": null
+    }
+  }
+}

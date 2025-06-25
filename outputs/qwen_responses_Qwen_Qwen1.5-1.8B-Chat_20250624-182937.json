@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "model": "Qwen/Qwen1.5-1.8B-Chat",
+    "batch_size": 8,
+    "runs": 3,
+    "temperature": 0.7,
+    "max_new_tokens": 256,
+    "out_dir": 

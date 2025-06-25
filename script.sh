@@ -1,0 +1,1 @@
+python qwen_batch_infer.py --model qwen3-0.6b --batch_size 8 --runs 3 --temperature 0.7 --hf_token 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
