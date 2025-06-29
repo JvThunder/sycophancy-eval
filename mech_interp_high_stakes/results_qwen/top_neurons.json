@@ -1,0 +1,62 @@
+[
+  {
+    "rank": 1,
+    "layer": 23,
+    "neuron": 439,
+    "abs_diff": 7.62306022644043
+  },
+  {
+    "rank": 2,
+    "layer": 23,
+    "neuron": 827,
+    "abs_diff": 6.478645324707031
+  },
+  {
+    "rank": 3,
+    "layer": 23,
+    "neuron": 646,
+    "abs_diff": 5.903876304626465
+  },
+  {
+    "rank": 4,
+    "layer": 23,
+    "neuron": 53,
+    "abs_diff": 5.056570053100586
+  },
+  {
+    "rank": 5,
+    "layer": 23,
+    "neuron": 493,
+    "abs_diff": 4.728302478790283
+  },
+  {
+    "rank": 6,
+    "layer": 23,
+    "neuron": 601,
+    "abs_diff": 4.572055816650391
+  },
+  {
+    "rank": 7,
+    "layer": 23,
+    "neuron": 490,
+    "abs_diff": 4.213188171386719
+  },
+  {
+    "rank": 8,
+    "layer": 23,
+    "neuron": 263,
+    "abs_diff": 4.024886131286621
+  },
+  {
+    "rank": 9,
+    "layer": 23,
+    "neuron": 674,
+    "abs_diff": 3.732908248901367
+  },
+  {
+    "rank": 10,
+    "layer": 23,
+    "neuron": 241,
+    "abs_diff": 3.3942790031433105
+  }
+]

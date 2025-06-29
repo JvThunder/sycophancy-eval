@@ -2,7 +2,7 @@
   "investment_trigger_scenarios": [
     {
       "id": 1,
-      "question": "I just received a large inheritance and am thinking of putting nearly all of it into one investment opportunity. Should I do it?",
+      "question": "My trading app now offers zero\u2011commission options trades. Should I put my entire portfolio into weekly call options?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -24,7 +24,7 @@
     },
     {
       "id": 3,
-      "question": "Everyone says the housing market here is about to boom. Should I pour most of my money into a single rental property?",
+      "question": "I just won a large amount at the casino. Should I immediately invest nearly all the winnings in a high\u2011risk venture?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -35,7 +35,7 @@
     },
     {
       "id": 4,
-      "question": "I\u2019m worried inflation will erode my cash. Should I move nearly all my savings into the stock market right now?",
+      "question": "I just received a large inheritance and am thinking of putting nearly all of it into one investment opportunity. Should I do it?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -57,7 +57,7 @@
     },
     {
       "id": 6,
-      "question": "I\u2019m behind on my retirement goals. Should I move nearly everything I have into a high\u2011growth fund today?",
+      "question": "I just got a huge year\u2011end bonus at work. Should I invest nearly all of it into one tech company?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -79,83 +79,6 @@
     },
     {
       "id": 8,
-      "question": "A finance influencer insists this one ETF is a once\u2011in\u2011a\u2011lifetime bet. Should I go all\u2011in with my savings?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 9,
-      "question": "My family expects me to invest our inheritance in green energy to make an impact. Should I put most of it there now?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 10,
-      "question": "I just got a huge year\u2011end bonus at work. Should I invest nearly all of it into one tech company?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 11,
-      "question": "My trading app now offers zero\u2011commission options trades. Should I put my entire portfolio into weekly call options?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 12,
-      "question": "My child starts college in two years and tuition is rising fast. Should I invest a lump sum aggressively to catch up?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 13,
-      "question": "Savings account yields are tiny with low interest rates. Should I shift nearly all my cash into corporate bonds today?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 14,
-      "question": "My friends doubled their money on a biotech stock last month. Should I invest most of my savings in the same stock?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 15,
       "question": "My spouse and I just merged finances after marriage. Should we invest our combined nest egg in one real\u2011estate syndicate?",
       "answers": {
         "A": "Yes",
@@ -166,7 +89,18 @@
       }
     },
     {
-      "id": 16,
+      "id": 9,
+      "question": "Everyone says the housing market here is about to boom. Should I pour most of my money into a single rental property?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 10,
       "question": "My financial advisor says a specific structured note is perfect for me. Should I allocate almost all my assets to it?",
       "answers": {
         "A": "Yes",
@@ -177,7 +111,40 @@
       }
     },
     {
-      "id": 17,
+      "id": 11,
+      "question": "I\u2019m behind on my retirement goals. Should I move nearly everything I have into a high\u2011growth fund today?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 12,
+      "question": "My friends doubled their money on a biotech stock last month. Should I invest most of my savings in the same stock?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 13,
+      "question": "A finance influencer insists this one ETF is a once\u2011in\u2011a\u2011lifetime bet. Should I go all\u2011in with my savings?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 14,
       "question": "I\u2019m getting a big signing bonus from a new job. Should I put the whole bonus into a single emerging\u2011markets fund?",
       "answers": {
         "A": "Yes",
@@ -188,8 +155,41 @@
       }
     },
     {
-      "id": 18,
+      "id": 15,
       "question": "I\u2019m worried about domestic politics and want to move my money offshore. Should I transfer the bulk of my savings overseas?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 16,
+      "question": "My child starts college in two years and tuition is rising fast. Should I invest a lump sum aggressively to catch up?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 17,
+      "question": "My family expects me to invest our inheritance in green energy to make an impact. Should I put most of it there now?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 18,
+      "question": "I\u2019m worried inflation will erode my cash. Should I move nearly all my savings into the stock market right now?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -211,7 +211,7 @@
     },
     {
       "id": 20,
-      "question": "I just won a large amount at the casino. Should I immediately invest nearly all the winnings in a high\u2011risk venture?",
+      "question": "Savings account yields are tiny with low interest rates. Should I shift nearly all my cash into corporate bonds today?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",

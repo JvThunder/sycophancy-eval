@@ -1,0 +1,9 @@
+transformers==4.39.1
+accelerate==0.27.0
+torch
+transformer-lens
+pandas
+numpy==1.24.4
+matplotlib==3.8.4
+tqdm
+seaborn 

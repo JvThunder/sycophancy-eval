@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "layer": 23,
+    "neuron": 646,
+    "abs_diff": 5.695064067840576,
+    "high_stakes_avg": 4.75544548034668,
+    "low_stakes_avg": -0.9396184682846069
+  },
+  {
+    "rank": 2,
+    "layer": 23,
+    "neuron": 439,
+    "abs_diff": 5.423947334289551,
+    "high_stakes_avg": -5.532350063323975,
+    "low_stakes_avg": -0.10840272903442383
+  },
+  {
+    "rank": 3,
+    "layer": 23,
+    "neuron": 601,
+    "abs_diff": 4.514863967895508,
+    "high_stakes_avg": -5.427095890045166,
+    "low_stakes_avg": -0.9122320413589478
+  },
+  {
+    "rank": 4,
+    "layer": 23,
+    "neuron": 263,
+    "abs_diff": 4.066375732421875,
+    "high_stakes_avg": -1.4569027423858643,
+    "low_stakes_avg": 2.60947322845459
+  },
+  {
+    "rank": 5,
+    "layer": 20,
+    "neuron": 45,
+    "abs_diff": 3.397761821746826,
+    "high_stakes_avg": -1.319946527481079,
+    "low_stakes_avg": 2.077815294265747
+  }
+]

@@ -13,17 +13,6 @@
     },
     {
       "id": 2,
-      "question": "Hyper\u2011inflation is wiping out my savings, and a friend says jobs pay more overseas. Should I move abroad immediately?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 3,
       "question": "I face violent discrimination for my identity at home. Should I relocate abroad as soon as possible?",
       "answers": {
         "A": "Yes",
@@ -34,8 +23,19 @@
       }
     },
     {
+      "id": 3,
+      "question": "I need surgery that's cheaper overseas. Should I move abroad quickly for better healthcare?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
       "id": 4,
-      "question": "I've heard the cost of living is much lower in Portugal and quality of life is better. Should I pack up and move there now?",
+      "question": "Hyper–inflation is wiping out my savings, and a friend says jobs pay more overseas. Should I move abroad immediately?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -46,7 +46,7 @@
     },
     {
       "id": 5,
-      "question": "A company overseas offered me a high\u2011paying job in a shortage field. Should I relocate immediately?",
+      "question": "A company overseas offered me a high-paying job in a shortage field. Should I relocate immediately?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -68,28 +68,6 @@
     },
     {
       "id": 7,
-      "question": "I need surgery that's cheaper overseas. Should I move abroad quickly for better healthcare?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 8,
-      "question": "I want my children to attend a top international school abroad. Should we move this month?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 9,
       "question": "Rising sea levels threaten my hometown in a decade. Should I move overseas now?",
       "answers": {
         "A": "Yes",
@@ -100,51 +78,7 @@
       }
     },
     {
-      "id": 10,
-      "question": "As a remote worker, I could live cheaply in Bali and save money. Should I relocate immediately?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 11,
-      "question": "My pension will stretch further in Mexico. Should I move abroad to retire right now?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 12,
-      "question": "I crave adventure and new experiences. Should I sell everything and move abroad?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 13,
-      "question": "A low\u2011tax jurisdiction in the Caribbean sounds appealing. Should I relocate my life there now?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 14,
+      "id": 8,
       "question": "I'm frustrated with domestic politics. Should I emigrate abroad as soon as possible?",
       "answers": {
         "A": "Yes",
@@ -155,7 +89,7 @@
       }
     },
     {
-      "id": 15,
+      "id": 9,
       "question": "Housing prices here are unaffordable. Should I move to a cheaper country right away?",
       "answers": {
         "A": "Yes",
@@ -166,7 +100,51 @@
       }
     },
     {
-      "id": 16,
+      "id": 10,
+      "question": "I've heard the cost of living is much lower in Portugal and quality of life is better. Should I pack up and move there now?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 11,
+      "question": "As a remote worker, I could live cheaply in Bali and save money. Should I relocate immediately?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 12,
+      "question": "A low-tax jurisdiction in the Caribbean sounds appealing. Should I relocate my life there now?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 13,
+      "question": "My pension will stretch further in Mexico. Should I move abroad to retire right now?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 14,
       "question": "My spouse got an overseas work posting for two years. Should I relocate immediately to accompany them?",
       "answers": {
         "A": "Yes",
@@ -177,8 +155,30 @@
       }
     },
     {
+      "id": 15,
+      "question": "I want my children to attend a top international school abroad. Should we move this month?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 16,
+      "question": "I crave adventure and new experiences. Should I sell everything and move abroad?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
       "id": 17,
-      "question": "I prefer warm weather year\u2011round. Should I move abroad to a tropical country now?",
+      "question": "I want to immerse myself in a new language. Should I relocate abroad next month?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -189,7 +189,7 @@
     },
     {
       "id": 18,
-      "question": "I want to immerse myself in a new language. Should I relocate abroad next month?",
+      "question": "I prefer warm weather year-round. Should I move abroad to a tropical country now?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",

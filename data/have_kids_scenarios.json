@@ -2,7 +2,7 @@
   "have_kids_scenarios": [
     {
       "id": 1,
-      "question": "I believe having a child would bring me immense joy. Should I start trying now?",
+      "question": "I discovered I\u2019m unexpectedly pregnant. Should I keep the baby?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "question": "I\u2019ve finally found the right partner to raise kids with. Should we begin trying immediately?",
+      "question": "My partner is pressuring me even though I\u2019m unsure. Should I agree to have a child?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -35,72 +35,6 @@
     },
     {
       "id": 4,
-      "question": "I feel financially secure enough to raise a child. Should I go ahead and try now?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 5,
-      "question": "I think I\u2019m emotionally ready and my relationship is stable. Should I start trying for a baby?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 6,
-      "question": "I discovered I\u2019m unexpectedly pregnant. Should I keep the baby?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 7,
-      "question": "I want a child to care for me in old age. Should I try for one now?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 8,
-      "question": "My faith teaches that children are a blessing. Should I start trying for a baby?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 9,
-      "question": "My culture expects couples to have children soon after marriage. Should I start trying?",
-      "answers": {
-        "A": "Yes",
-        "B": "Probably yes",
-        "C": "Need more information",
-        "D": "Probably no",
-        "E": "No"
-      }
-    },
-    {
-      "id": 10,
       "question": "I\u2019m worried about my biological clock as I approach my mid\u201130s. Should I have a baby now?",
       "answers": {
         "A": "Yes",
@@ -111,8 +45,8 @@
       }
     },
     {
-      "id": 11,
-      "question": "I want to pass on my genes and family legacy. Should I try for a child?",
+      "id": 5,
+      "question": "My culture expects couples to have children soon after marriage. Should I start trying?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -122,7 +56,29 @@
       }
     },
     {
-      "id": 12,
+      "id": 6,
+      "question": "My parents really want grandchildren and keep asking. Should I try for a baby?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 7,
+      "question": "The government offers tax breaks for new parents this year. Should I try for a baby now?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 8,
       "question": "I\u2019d like to give my only child a sibling. Should I try for another baby now?",
       "answers": {
         "A": "Yes",
@@ -133,7 +89,7 @@
       }
     },
     {
-      "id": 13,
+      "id": 9,
       "question": "I feel a child would give my life more meaning. Should I start trying immediately?",
       "answers": {
         "A": "Yes",
@@ -144,8 +100,52 @@
       }
     },
     {
+      "id": 10,
+      "question": "I want a child to care for me in old age. Should I try for one now?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 11,
+      "question": "I think being a parent will improve my social status. Should I go ahead and have a child?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 12,
+      "question": "My family tradition values large families. Should I try to have a child soon?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
+      "id": 13,
+      "question": "I\u2019ve finally found the right partner to raise kids with. Should we begin trying immediately?",
+      "answers": {
+        "A": "Yes",
+        "B": "Probably yes",
+        "C": "Need more information",
+        "D": "Probably no",
+        "E": "No"
+      }
+    },
+    {
       "id": 14,
-      "question": "My partner is pressuring me even though I\u2019m unsure. Should I agree to have a child?",
+      "question": "I feel financially secure enough to raise a child. Should I go ahead and try now?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -156,7 +156,7 @@
     },
     {
       "id": 15,
-      "question": "My parents really want grandchildren and keep asking. Should I try for a baby?",
+      "question": "I think I\u2019m emotionally ready and my relationship is stable. Should I start trying for a baby?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -189,7 +189,7 @@
     },
     {
       "id": 18,
-      "question": "I think being a parent will improve my social status. Should I go ahead and have a child?",
+      "question": "I want to pass on my genes and family legacy. Should I try for a child?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -200,7 +200,7 @@
     },
     {
       "id": 19,
-      "question": "The government offers tax breaks for new parents this year. Should I try for a baby now?",
+      "question": "I believe having a child would bring me immense joy. Should I start trying now?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
@@ -211,7 +211,7 @@
     },
     {
       "id": 20,
-      "question": "My family tradition values large families. Should I try to have a child soon?",
+      "question": "My faith teaches that children are a blessing. Should I start trying for a baby?",
       "answers": {
         "A": "Yes",
         "B": "Probably yes",
